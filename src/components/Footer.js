@@ -94,16 +94,16 @@ export default function Footer({ fixed }) {
           cheeses
         </h6>
         <p class="mb-4">
-          <a href="https://en.wikipedia.org/wiki/Brie" class="text-gray-600">Brie</a>
+          <a href="https://en.wikipedia.org/wiki/Brie" class="text-gray-600" id="foot">Brie</a>
         </p>
         <p class="mb-4">
-          <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="text-gray-600">Muenster</a>
+          <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="text-gray-600" id="foot">Muenster</a>
         </p>
         <p class="mb-4">
-          <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="text-gray-600">Cheddar</a>
+          <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="text-gray-600" id="foot">Cheddar</a>
         </p>
         <p>
-          <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="text-gray-600">Gouda</a>
+          <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="text-gray-600" id="foot">Gouda</a>
         </p>
       </div>
       <div class="col-span-1">
@@ -111,16 +111,16 @@ export default function Footer({ fixed }) {
           Useful links
         </h6>
         <p class="mb-4">
-          <a href="https://www.pexels.com/" class="text-gray-600">Stock Photos</a>
+          <a href="https://www.pexels.com/" class="text-gray-600" id="foot">Stock Photos</a>
         </p>
         <p class="mb-4">
-          <a href="https://www.spotify.com/" class="text-gray-600">Music</a>
+          <a href="https://www.spotify.com/" class="text-gray-600" id="foot">Music</a>
         </p>
         <p class="mb-4">
-          <a href="https://www.youtube.com" class="text-gray-600">Videos</a>
+          <a href="https://www.youtube.com" class="text-gray-600" id="foot">Videos</a>
         </p>
         <p>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="text-gray-600">Rick Roll</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="text-gray-600" id="foot">Rick Roll</a>
         </p>
       </div>
       <div class="col-span-2">

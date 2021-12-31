@@ -1,0 +1,4 @@
+npm run start
+
+this is a compilation of a lot of tutorials
+first time using react

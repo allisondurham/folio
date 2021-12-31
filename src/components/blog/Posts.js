@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './blog.css';
+import image from "./blogAssets/hammock.png";
 
 export default function Posts() {
   return (
@@ -11,7 +12,7 @@ export default function Posts() {
             <div class="col-lg-7">
               <img
                 class="img-fluid rounded mb-4 mb-lg-0 p-10"
-                src="http://placehold.it/900x400"
+                src={image}
                 alt=""
               />
             </div>

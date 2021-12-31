@@ -5,6 +5,22 @@ p {
   font: extrabold;
 }
 
-a:hover {
+/* a:hover {
+  color: #0891b2;
+} */
+
+#nav:hover {
+  color: #0891b2;
+}
+
+#side:hover {
+  color: #ca8a04;
+}
+
+#foot:hover {
+  color: #0891b2;  
+}
+
+button:hover {
   color: #0891b2;
 }

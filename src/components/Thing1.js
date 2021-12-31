@@ -15,7 +15,7 @@ export default function Thing1() {
             />
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light text-4xl pt-10 pb-10 text-center font-extrabold">Thing1</h1>
+            <h1 className="font-weight-light text-4xl pt-10 pb-10 text-center font-extrabold">Thing1 - image carousel</h1>
             <p className="pl-10 pt-10 pb-20 text-center">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
