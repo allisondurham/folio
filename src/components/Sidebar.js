@@ -14,6 +14,7 @@ export default function Sidebar() {
                     viewBox="0 0 100 80"
                     width="40"
                     height="40"
+                    className="hover:fill-cyan-600"
                     
                     >
                     <rect width="100" height="10"></rect>
@@ -22,7 +23,7 @@ export default function Sidebar() {
                 </svg>
             </button>
         ) : (
-            <button className="text-xl text-yellow-400 fixed top-20 right-10 z-10"
+            <button className="text-3xl text-yellow-400  fixed top-20 right-10 z-10"
             onClick={() => setIsOpen(!isOpen)}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-11 w-11" viewBox="0 0 20 20" fill="currentColor">
@@ -37,35 +38,37 @@ export default function Sidebar() {
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">SIDEBAR!</h2>
 
-        <div class="col-span-1 text-yellow-500">
-        {/* <div class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-        </div> */}
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-8 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Brie" class="">Brie</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-4 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-4 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-5 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="">Gouda</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-4 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Brie" class="">Brie</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-4 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-4 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>
-        </p>
-        <p id="side" class="hover:text-yellow-700 text-2xl font-extrabold pl-12 pt-4 mb-4">
-          <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="">Gouda</a>
-        </p>
-      </div>
+                <div class="col-span-1 text-yellow-500">
+                    <div class="uppercase font-semibold mb-2 flex justify-center pl-5 md:justify-start">stuff on the right
+                    </div>
+                    <div class="pl-8">
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2">
+                        <a href="/Flip">Flip</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="">Gouda</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Brie" class="">Brie</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>
+                        </p>
+                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="">Gouda</a>
+                        </p>
+                    </div>
                 </div>
+            </div>
                 
         </>
     )

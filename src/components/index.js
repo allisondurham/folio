@@ -7,3 +7,8 @@ export { default as Thing2 } from "./Thing2";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
+export { default as Leftbar } from "./Leftbar";
+export { default as Flip } from "./Flip";
+
+
+
