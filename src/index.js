@@ -19,6 +19,8 @@ import {
   Post,
   Flip,
   Boxes,
+  Calc,
+  Oldest,
 } from "./components";
 
 
@@ -33,6 +35,8 @@ ReactDOM.render(
       <Route path="/Thing2" element={<Thing2 />} />
       <Route path="/Flip" element={<Flip />} />
       <Route path="/Boxes" element={<Boxes />} />
+      <Route path="/Calculator" element={<Calc />} />
+      <Route path="/Oldest" element={<Oldest />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

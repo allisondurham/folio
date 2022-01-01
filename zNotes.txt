@@ -35,6 +35,9 @@ main resources:
     flip card
     https://webdevtrick.com/css-card-flip-reflection/
 
+    7.
+    toggle image
+    
 
 
 
@@ -53,3 +56,8 @@ main resources:
     boxes4 Photo by Karolina from Pexels
     boxes5 Photo by Marta Wave from Pexels
     boxes6 Photo by Eneida Nieves from Pexels
+
+
+    icon use requirements:  link to license, attribution, indication if changes were made
+    https://fontawesome.com/license
+

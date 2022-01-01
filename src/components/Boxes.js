@@ -11,60 +11,64 @@ export default function Home() {
         <div className="container w-full mx-auto mt-16">
 
 
-            <section class="boxes py-20 justify-center">
-                <div class="card">
-                    <img class="image" src={box1} alt=""/>
-                    <div class="p-5">
-                        <h1 class=" text-xl font-extrabold">Hipster Ipsum</h1>
+            <section className="boxes py-20 justify-center">
+                <div className="card">
+                    <img className="image" src={box1} alt=""/>
+                    <div className="p-5">
+                        <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
                         <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
                     </div>
-                    <div class="middle">
+                    <div className="middle">
                         <div>
                             <a href="https://www.youtube.com/watch?v=cmzx49na6Aw&ab_channel=JanaeGiggles">
-                                <i class="fab fa-youtube text-6xl" ></i>
+                                <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                                </svg>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="image" src={box2} alt=""/>
-                    <div class="p-5">
-                    <h1 class=" text-xl font-extrabold">Hipster Ipsum</h1>
+                <div className="card">
+                    <img className="image" src={box2} alt=""/>
+                    <div className="p-5">
+                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
                         <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
                     </div>
-                    <div class="middle">
+                    <div className="middle">
                         <div>
                             <a href="https://www.youtube.com/watch?v=f6mJ7e5YmnE&ab_channel=NationalGeographic">
-                                <i class="fab fa-youtube text-6xl"></i>
-                            </a>
+                                <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                                </svg></a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="image" src={box5} alt=""/>
-                    <div class="p-5">
-                    <h1 class=" text-xl font-extrabold">Hipster Ipsum</h1>
+                <div className="card">
+                    <img className="image" src={box5} alt=""/>
+                    <div className="p-5">
+                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
                         <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
                     </div>
-                    <div class="middle">
+                    <div className="middle">
                         <div>
                             <a href="https://www.youtube.com/watch?v=vdrn4ouZRvQ&ab_channel=Minecraft">
-                                <i class="fab fa-youtube text-6xl"></i>
-                            </a>
+                                <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                                </svg></a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="card">
-                    <img class="image" src={box3} alt=""/>
-                    <div class="p-5">
-                    <h1 class=" text-xl font-extrabold">Hipster Ipsum</h1>
+                <div className="card">
+                    <img className="image" src={box3} alt=""/>
+                    <div className="p-5">
+                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
                         <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
                     </div>
-                    <div class="middle">
+                    <div className="middle">
                         <div>
-                            <h1 class="article text-center bg-yellow-500 text-xl pl-15">
+                            <h1 className="article text-center bg-yellow-500 text-xl pl-15">
                                 <a href="https://reactjs.org/">
                                     &nbsp; Learn More &nbsp;
                                 </a>
@@ -72,15 +76,15 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="image" src={box4} alt=""/>
-                    <div class="p-5">
-                    <h1 class=" text-xl font-extrabold">Hipster Ipsum</h1>
+                <div className="card">
+                    <img className="image" src={box4} alt=""/>
+                    <div className="p-5">
+                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
                         <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
                     </div>
-                    <div class="middle">
+                    <div className="middle">
                         <div>
-                            <h1 class="article text-center bg-yellow-500 text-xl p-15">
+                            <h1 className="article text-center bg-yellow-500 text-xl p-15">
                                 <a href="https://tailwindcss.com/docs/installation">
                                     &nbsp; Learn More &nbsp;
                                 </a>
@@ -88,15 +92,15 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="image" src={box6} alt=""/>
-                    <div class="p-5">
-                    <h1 class=" text-xl font-extrabold">Hipster Ipsum</h1>
+                <div className="card">
+                    <img className="image" src={box6} alt=""/>
+                    <div className="p-5">
+                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
                         <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
                     </div>
-                    <div class="middle">
+                    <div className="middle">
                         <div>
-                            <h1 class="article text-center bg-yellow-500 text-xl p-15">
+                            <h1 className="article text-center bg-yellow-500 text-xl p-15">
                                 <a href="https://en.wikipedia.org/wiki/Chocolate">
                                     &nbsp; Learn More &nbsp;
                                 </a>
@@ -112,11 +116,3 @@ export default function Home() {
 
 
 
-
-// import image from "./blog/blogAssets/hammock.png"
-{/* <img className="shadow rounded-lg border-none max-w-full h-auto align-middle" src={image} alt="" /> */}
-
-
-            // <div className="p-20 flex flex-wrap items-center justify-center">
-            //     <h1 className="text-4xl pt-10 ">Boxes</h1>
-            // </div>

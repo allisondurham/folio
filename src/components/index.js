@@ -10,5 +10,8 @@ export { default as Post } from "./blog/Post";
 export { default as Leftbar } from "./Leftbar";
 export { default as Flip } from "./Flip";
 export { default as Boxes } from "./Boxes";
+export { default as Calc } from "./Calculator"
+export { default as Oldest } from "./Oldest"
+
 
 

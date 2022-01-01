@@ -26,9 +26,9 @@ export default function Leftbar() {
             <button className="text-3xl text-yellow-400  fixed top-20 left-10 z-50"
             onClick={() => setIsOpen(!isOpen)}
             >
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-11 w-11" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                    <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-11 w-11" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                    <path fillRule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clipRule="evenodd" />
                 </svg>
             </button>
                 )
@@ -38,33 +38,33 @@ export default function Leftbar() {
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-24 font-extrabold">LEFTBAR!</h2>
 
-                <div class="col-span-1 text-yellow-500 pl-24 ">
-                    <div class="uppercase font-semibold mb-2 flex justify-center md:justify-start">stuff on the left
+                <div className="col-span-1 text-yellow-500 pl-24 ">
+                    <div className="uppercase font-semibold mb-2 flex justify-center md:justify-start">slide to the left
                     </div>
-                    <div class="">
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2 ">
-                            <a href="https://en.wikipedia.org/wiki/Brie" class="">Brie</a>
+                    <div className="">
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2 ">
+                            <a href="/Calculator" className="">Calculator</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" className="">Muenster</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" className="">Cheddar</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="">Gouda</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" className="">Gouda</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Brie" class="">Brie</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Brie" className="">Brie</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" className="">Muenster</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" className="">Cheddar</a>
                         </p>
-                        <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" class="">Gouda</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="/Oldest" className="">Oldest Code</a>
                         </p>
                     </div>
                 </div>

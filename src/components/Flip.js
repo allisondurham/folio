@@ -10,14 +10,14 @@ export default function Flip() {
             <div className="p-20 flex flex-wrap items-center justify-center">
 
 
-                <div class="container flip w-full flex justify-around z-20">
+                <div className="container flip w-full flex justify-around z-20">
 
-                    <div class="card p-5">
+                    <div className="card p-5">
 
-                        <div class="item front-side">
+                        <div className="item front-side">
                             <img className="shadow rounded-lg border-none max-w-full h-auto align-middle" src={image3} alt="" />
                         </div>
-                        <div class="item back-side">
+                        <div className="item back-side">
                             <img className="shadow rounded-lg border-none max-w-full h-auto align-middle" src={image2} alt="" />
                         </div>
                     </div>
