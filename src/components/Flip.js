@@ -10,7 +10,7 @@ export default function Flip() {
             <div className="p-20 flex flex-wrap items-center justify-center">
 
 
-                <div class="container flip w-full flex justify-around">
+                <div class="container flip w-full flex justify-around z-20">
 
                     <div class="card p-5">
 
@@ -24,7 +24,7 @@ export default function Flip() {
                 </div>
 
 
-                <h1 className="text-4xl pt-10 ">flip card</h1>
+                <h1 className="text-4xl pt-10 "></h1>
 
 
             </div>

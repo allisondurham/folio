@@ -35,4 +35,21 @@ main resources:
     flip card
     https://webdevtrick.com/css-card-flip-reflection/
 
+
+
+
+
+
+
+
+
+
+
+    photo credits
     
+    pexels
+    boxes2 Photo by Cliford Mervil from Pexels
+    boxes3 Photo by Manuela Adler from Pexels
+    boxes4 Photo by Karolina from Pexels
+    boxes5 Photo by Marta Wave from Pexels
+    boxes6 Photo by Eneida Nieves from Pexels

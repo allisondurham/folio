@@ -9,6 +9,6 @@ export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
 export { default as Leftbar } from "./Leftbar";
 export { default as Flip } from "./Flip";
-
+export { default as Boxes } from "./Boxes";
 
 

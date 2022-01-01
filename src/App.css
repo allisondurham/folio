@@ -1,36 +1,33 @@
 
 body{
-  font-family: "Aleo", serif;
-  font-family: 'Special Elite', cursive;
-  font-family: 'Lato', sans-serif;
+  /* font-family: "Aleo", serif; */
+  /* font-family: 'Special Elite', cursive; */
+  /* font-family: 'Lato', sans-serif; */
   font-family: 'Ubuntu', sans-serif;
-};
+  /* background-size: stretch;
+  background: url('https://i.imgur.com/W3tra4F.gif'); */
+}
 
 /* only affects "home" button in nav tab */
 #nav:hover {
   color: #0891b2;
-};
-
-/* not neccessary */
-#side:hover {
-  color: #ca8a04;
-};
+}
 
 /* inuse */
 #foot:hover {
   color: #0891b2;  
-};
+}
 
 /* inuse */
 button:hover {
   color: #0891b2;
-};
+}
 
 
 
 
-/* homepage flip card stuff */
-
+/* flip card stuff */
+/* ------------------------------------------------------------------------ */
 .flip {
   perspective: 1800px;
 }
@@ -38,7 +35,7 @@ button:hover {
 .flip .card {
   position: relative;
   width: 70%;
-  height: 800px;
+  height: 700px;
   cursor: pointer;
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
@@ -47,6 +44,7 @@ button:hover {
 .flip .card:hover {
   transform: rotateY(0.5turn);
 }
+
 .flip .card .item {
   position: absolute;
   top: 0;
@@ -57,7 +55,89 @@ button:hover {
   transition: 1s ease-in-out;
 }
 
-
 .flip .card .back-side {
   transform: rotateY(0.5turn);
 }
+
+/* ---------------------------------------------------------------- */
+
+
+
+.boxes {
+  display: flex;
+  justify-content: space around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background-image: url("./assets/thing1.jpeg") */
+}
+
+.boxes .card {
+  position: relative;
+  width: 350px;
+  height: auto;
+  margin: 20px;
+  cursor: pointer;
+  transition: 1s ease;
+  background-color: rgb(234 179 8);;
+  box-shadow: 2px 2px 6px 0px rgb(113 63 18);;
+}
+
+.boxes .card i {
+  opacity: .7;
+  color: rgb(234 179 8) !important;
+}
+
+.boxes .card i:hover {
+  transform: scale(1.1);
+  opacity: .9;
+}
+
+.boxes .card:hover {
+  transform: scale(1.1);
+}
+
+.boxes .card img {
+  width: 100%;
+}
+
+.boxes .card:hover .image{
+  filter: brightness(50%);
+  transition: all 1s ease;
+}
+
+.boxes .middle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  transform: translate(-50%, -50%);
+}
+
+.boxes .card .middle .article {
+  border-radius: 15px 50px 30px;
+  opacity: .7;
+}
+
+.boxes .card .middle:hover .article {
+  border-radius: 5px;
+  opacity: .9;
+}
+
+.boxes .card:hover .middle{
+  opacity: 1;
+}
+
+.boxes .
+
+@media(max-width:768px){
+  .boxes .card{
+    width: 95%;
+  }
+}
+
+

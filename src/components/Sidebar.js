@@ -23,7 +23,7 @@ export default function Sidebar() {
                 </svg>
             </button>
         ) : (
-            <button className="text-3xl text-yellow-400  fixed top-20 right-10 z-10"
+            <button className="text-3xl text-yellow-400  fixed top-20 right-10 z-50"
             onClick={() => setIsOpen(!isOpen)}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-11 w-11" viewBox="0 0 20 20" fill="currentColor">
@@ -33,7 +33,7 @@ export default function Sidebar() {
             </button>
                 )
             }
-                <div className={`top-0 right-0 fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
+                <div className={`top-0 mt-16 right-0 z-40 fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': 'translate-x-full'}
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">SIDEBAR!</h2>
@@ -46,7 +46,7 @@ export default function Sidebar() {
                         <a href="/Flip">Flip</a>
                         </p>
                         <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" class="">Muenster</a>
+                            <a href="/Boxes" class="">Boxes</a>
                         </p>
                         <p id="side" class="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
                             <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" class="">Cheddar</a>

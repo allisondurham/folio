@@ -57,7 +57,7 @@ export default function Footer({ fixed }) {
                             My wife told me to quit acting like a flamingo, so I had to put my foot down.
                             </p>
                             <br></br>
-                            <p>I told my dad when I broke my arm in three places, he just sighed and told me to stop going to those places.</p>
+                            <p>When I told my dad I broke my arm in three places, he just sighed and told me to stop going to those places.</p>
                         </div>
                         <div class="col-span-1">
                             <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">cheeses

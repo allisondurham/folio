@@ -16,7 +16,7 @@ export default function Navbar({ fixed }) {
                     <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
                         <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
                             <li class="mr-3">
-                                <a id="nav" class="inline-block py-2 font-semibold px-2 text-yellow-900 no-underline" href="/">Home</a>
+                                <a id="nav" class="inline-block font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/">Home</a>
                             </li>
                             <li class="mr-3">
                                 <a id="nav" class="inline-block font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Thing1">Thing1</a>
