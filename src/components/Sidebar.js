@@ -33,13 +33,13 @@ export default function Sidebar() {
             </button>
                 )
             }
-                <div className={`top-0 mt-16 right-0 z-40 fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
+                <div className={`right-bar top-1 mt-14 right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': 'translate-x-full'}
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">SIDEBAR!</h2>
 
                 <div className="col-span-1 text-yellow-500">
-                    <div className="uppercase font-semibold mb-2 flex justify-center pl-5 md:justify-start">stuff on the right
+                    <div className="uppercase font-semibold mb-2 flex justify-center pl-5 md:justify-start">stuff on the right - internal
                     </div>
                     <div className="pl-8">
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2">
@@ -49,7 +49,7 @@ export default function Sidebar() {
                             <a href="/Boxes" className="">Boxes</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" className="">Cheddar</a>
+                            <a href="/Carousel" className="">Carousel</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
                             <a href="https://en.wikipedia.org/wiki/Gouda_cheese" className="">Gouda</a>
@@ -60,11 +60,12 @@ export default function Sidebar() {
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
                             <a href="https://en.wikipedia.org/wiki/Muenster_cheese" className="">Muenster</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" className="">Cheddar</a>
+
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 mb-2 ">
+                            <a href="/Calculator" className="">Calculator</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" className="">Gouda</a>
+                            <a href="/Oldest" className="">Oldest Code</a>
                         </p>
                     </div>
                 </div>

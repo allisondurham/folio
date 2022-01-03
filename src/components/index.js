@@ -12,6 +12,8 @@ export { default as Flip } from "./Flip";
 export { default as Boxes } from "./Boxes";
 export { default as Calc } from "./Calculator"
 export { default as Oldest } from "./Oldest"
-
+export { Carousel } from "./Carousel"
+export { default as CarouselData } from "./CarouselData"
+export { default as About } from "./About";
 
 

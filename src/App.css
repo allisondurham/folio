@@ -23,6 +23,25 @@ button:hover {
   color: #0891b2;
 }
 
+/* --------------------------------------------------  */
+
+.nav {
+  box-shadow: 2px 2px 5px #713f12;
+  text-shadow: 1px 1px 2px #a16207;
+}
+
+.foot {
+  box-shadow:  1px 1px 4px 2px #713f12;
+}
+
+.left-bar {
+border-radius: 0 1% 0 0;
+}
+
+.right-bar {
+  border-radius: 1% 0 0 0;
+}
+
 
 
 
@@ -119,7 +138,7 @@ button:hover {
 }
 
 .boxes .card .middle .article {
-  border-radius: 15px 50px 30px;
+  border-radius: 15px 50px 50px;
   opacity: .7;
 }
 
@@ -256,27 +275,37 @@ button:hover {
 
 .homepage {
   margin: 0em;
-  /* background-image: url("./assets/tunnel.gif"); */
+  background-image: url("./assets/tunnel.gif");
   background-size: cover;
+}
+
+.still{
+  background-image: url("./assets/tunnel2.png");
 }
 
 .homepage .words {
   position: absolute;
-  top: 23%;
+  top: 0%;
   left: 50%;
+  text-shadow: 2px, 2px, 8px black;
+}
+.homepage h1 {
+  text-shadow: 2px, 2px, 8px black;
 }
 
 .homepage .pause {
+  /* padding: 7rem; */
   position: absolute;
-  font-size: 3em;
-  top: 25%;
-  right: 20%;
+  font-size: 1.8em;
+  top: 0%;
+  left: 75%;
+  text-shadow: 1px, 1px, 4px black;
 }
 
 .homepage .pause:hover {
   color: rgb(46, 139, 139);
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .homepage .toggle:active {
@@ -286,3 +315,74 @@ button:hover {
 
 
 /* ---------------------------- */
+.burlap {
+  background-image: url("./assets/light-burlap.webp")
+}
+
+.carousel {
+  position:relative;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.carousel .image {
+  display: flex;
+  align-self: center;
+  width: full;
+  height: full;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+
+}
+
+.carousel .right-arrow {
+  position: absolute;
+  top: 45%;
+  right: 0px;
+  font-size: 3rem;
+  /* color: lime; */
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px black;
+  opacity: 90%
+
+}
+
+.carousel .left-arrow {
+  position: absolute;
+  top: 45%;
+  left: 0px;
+  font-size: 3rem;
+  /* color: lime; */
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px black;
+  opacity: 90%;
+}
+
+.carousel .item {
+  opacity: 0;
+  /* transition-duration: 1s ease; */
+}
+.carousel .item.active {
+  opacity: 1;
+  /* transition-duration: 1s;
+  transform: scale(1.08); */
+  
+}
+
+/* ______________________________________ */
+
+.hbout {
+  color: blue;
+}

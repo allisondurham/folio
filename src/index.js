@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -21,6 +21,9 @@ import {
   Boxes,
   Calc,
   Oldest,
+  Carousel,
+  CarouselData,
+  About,
 } from "./components";
 
 
@@ -37,6 +40,8 @@ ReactDOM.render(
       <Route path="/Boxes" element={<Boxes />} />
       <Route path="/Calculator" element={<Calc />} />
       <Route path="/Oldest" element={<Oldest />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Carousel" element={<Carousel items={CarouselData} />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

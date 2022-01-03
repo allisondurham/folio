@@ -33,38 +33,36 @@ export default function Leftbar() {
             </button>
                 )
             }
-                <div className={`top-0 z-40 mt-16 left-0 fixed overflow-scroll bg-gradient-to-br from-yellow-800/95 to-cyan-700/95  w-[35vw] h-full p-3
+                <div className={`left-bar top-1 z-40 mt-14 rounded-xl shadow-xl left-0 fixed overflow-scroll bg-gradient-to-br from-yellow-800/95 to-cyan-700/95  w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': '-translate-x-full'}
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-24 font-extrabold">LEFTBAR!</h2>
 
                 <div className="col-span-1 text-yellow-500 pl-24 ">
-                    <div className="uppercase font-semibold mb-2 flex justify-center md:justify-start">slide to the left
+                    <div className="uppercase font-semibold mb-2 flex justify-center md:justify-start">slide to the left - external
                     </div>
                     <div className="">
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2 ">
-                            <a href="/Calculator" className="">Calculator</a>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2">
+                            <a href="https://blog-next-js-sigma.vercel.app/" className="">Next JS Blog</a>
+                        </p>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2 ">
+                            <a href="https://stormy-coast-33083.herokuapp.com/" className="">ArtTracker</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" className="">Muenster</a>
+                            <a href="http://allisondurham.pythonanywhere.com/" className="">DjangoGirls</a>
+                        </p>
+                        
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="https://earsketch.gatech.edu/earsketch2/?sharing=TshpLEOWEowz30twX69L0A" className="">Earsketch</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" className="">Cheddar</a>
+                            <a href="https://replit.com/@AllisonDurham/turtle-game#main.py" className="">Turtle</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" className="">Gouda</a>
+                            <a href="https://deserted-funky-beach.glitch.me/" className="">Glitch</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Brie" className="">Brie</a>
-                        </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" className="">Muenster</a>
-                        </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Cheddar_cheese" className="">Cheddar</a>
-                        </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="/Oldest" className="">Oldest Code</a>
+                            <a href="https://scratch.mit.edu/projects/454614781/" className="">Scratch</a>
                         </p>
                     </div>
                 </div>

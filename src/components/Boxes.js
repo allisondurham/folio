@@ -8,6 +8,8 @@ import box6 from "../assets/box6.jpg";
 
 export default function Home() {
     return (
+        <div className="burlap">
+
         <div className="container w-full mx-auto mt-16">
 
 
@@ -110,6 +112,7 @@ export default function Home() {
                 </div>
             </section>
 
+        </div>
         </div>
     );
 }

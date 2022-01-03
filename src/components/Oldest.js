@@ -4,8 +4,8 @@ import React from "react";
 
 export default function Oldest() {
     return (
-        // <div className="container w-full mx-auto mt-16">
-            <div className=" oldest mt-16 mx-auto p-20 flex flex-wrap justify-center">
+        <div className="container w-full mx-auto mt-28 mb-12">
+            <div className=" oldest mt-6 mx-auto p-20 flex flex-wrap justify-center">
                 <h1>Hi there!</h1>
                 <img
                 src="https://images.pexels.com/photos/1230302/pexels-photo-1230302.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
@@ -53,6 +53,6 @@ export default function Oldest() {
                 {/* <div className="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
                 <script src="https://button.glitch.me/button.js" defer></script> */}
             </div>
-        // </div>
+        </div>
     );
 }

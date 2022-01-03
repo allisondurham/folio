@@ -5,6 +5,8 @@ import image3 from "../assets/painting.png"
 
 export default function Flip() {
     return (
+        <div className="">
+
         <div className="container w-full mx-auto mt-16">
 
             <div className="p-20 flex flex-wrap items-center justify-center">
@@ -30,5 +32,6 @@ export default function Flip() {
             </div>
         </div>
 
+        </div>
     );
 }
