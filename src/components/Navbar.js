@@ -4,7 +4,7 @@ export default function Navbar({ fixed }) {
     // const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
         <>
-            <nav className=" nav bg-gradient-to-r from-yellow-700 to-yellow-400 p-1 mt-0 fixed w-full z-10 top-0 ">
+            <nav className=" nav bg-gradient-to-r from-yellow-700 to-yellow-400 p-2 mt-0 fixed w-full  top-0 z-10">
                 <div className="container mx-auto flex flex-wrap items-center">
                     <div className="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
                         <a className="text-white no-underline hover:text-cyan hover:no-underline" href="/">
@@ -21,12 +21,12 @@ export default function Navbar({ fixed }) {
                             <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/About">About</a>
                             </li>
-                            <li className="mr-3">
+                            {/* <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Thing1">Thing1</a>
                             </li>
                             <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Thing2">Thing2</a>
-                            </li>
+                            </li> */}
                             <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Blog">Blog</a>
                             </li>

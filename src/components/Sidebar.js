@@ -39,36 +39,37 @@ export default function Sidebar() {
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">sidebar!</h2>
 
                 <div className="col-span-1 text-yellow-500">
-                    <div className=" font-semibold mb-2 flex justify-center pl-5 md:justify-start">stuff on the right - internal
+                    <div className="  mb-2 flex justify-center pl-5 md:justify-start">stuff on the right - internal
                     </div>
-                    <div className="pl-8">
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2">
+                    <div className="pl-20 text-xl 2xl:text-2xl">
+
+                        <p id="side" className="hover:text-yellow-700 pt-8 mb-2">
                         <a href="/Flip">flip</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700 mb-2">
                             <a href="/Boxes" className="">boxes</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700 mb-2">
                             <a href="/Carousel" className="">carousel</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700 mb-2">
                             <a href="/Flex" className="">flex</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700 mb-2">
                             <a href="/Pause" className="">pause</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700  mb-2">
                             <a href="/Meh" className="">meh or yeh?</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700   mb-2">
                             <a href="/Brick" className="">brick - currently down</a>
                         </p>
 
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 mb-2 ">
+                        <p id="side" className="hover:text-yellow-700 mb-2 ">
                             <a href="/Calculator" className="">calculator</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="/Oldest" className="">oldest Code</a>
+                        <p id="side" className="hover:text-yellow-700  mb-2">
+                            <a href="/Oldest" className="">oldest code</a>
                         </p>
                     </div>
                 </div>

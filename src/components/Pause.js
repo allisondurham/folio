@@ -27,8 +27,8 @@ export default function Pause() {
         >
 
             <div className=" position-fixed flex flex-wrap items-center justify-center">
-            <div className=" m-28  z-20 flex flex-wrap items-center justify-center">
-            <img className="image z-30 shadow-2xl mt-20  rounded-lg border-4 border-yellow-800 max-w-3xl h-auto  2xl:max-w-6xl align-middle" src={image} alt="" />
+            <div className=" m-28 z-10 flex flex-wrap items-center justify-center">
+            <img className="image  shadow-2xl mt-32 mb-10 2xl:mt-24 2xl:mb-10 rounded-lg border-4 border-yellow-800/60 max-w-xl h-auto  2xl:max-w-3xl align-middle" src={image} alt="" />
             </div>
             </div>
       
@@ -45,6 +45,16 @@ export default function Pause() {
                     <img src={gif} className="gif " alt="gif" loading="lazy"/>
                     </div>
                 </details>
+
+
+
+                {/* <details>
+                    <summary className="absolute butt z-30">
+                        <svg width="5em" height="5em" viewBox="0 0 16 16" className="rounded-full shadow pause mt-20 mr-10 2xl:mr-0 2xl:h-20 2xl:w-20  z-10 bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                    </summary>
+                </details> */}
             </div>
         
 

@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/drawing.jpg";
+import image from "../assets/box2.jpg";
 
 export default function About () {
     return (
@@ -9,11 +9,11 @@ export default function About () {
 
             <div className="about p-6 sm:p-10 md:p-28 flex flex-wrap">
 
-                <div className="w-full md:w-1/2 md:pr-16 pl-12 order-3 md:order-1">
+                <div className=" w-full w-1/3 md:pr-10 pl-2 order-3 md:order-1">
 
-                    <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
+                    <div className="bg-cyan-700/20 p-6 shadow-xl rounded-2xl max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
 
-                        <h1 className="font-bold my-4 md:my-8">Left column pic and links</h1>
+                        <h1 className="font-bold py-2 ">Left column pic and links</h1>
                         <img className="rounded" src={image} alt=""/>
                         <ul className="pt-4 flex flex-wrap justify-between flex-col">
                             <li><a href="" className="hbout">super cool interesting link</a></li>
@@ -25,9 +25,9 @@ export default function About () {
                     </div>
                 </div>
 
-                <div className="w-full md:w-1/2 order-1 md:order-2">
-                    <div className="max-w-md leading-loose tracking-tight">
-                        <h1 className="font-extrabold my-8">Right Column</h1>
+                <div className="w-full w-2/3 order-1 md:order-2">
+                    <div className="bg-cyan-700/20 shadow-xl p-6 rounded-2xl max-w-3xl leading-loose tracking-tight">
+                        <h1 className="font-extrabold my-3">Right Column</h1>
                             <p className="mb-8">Four dollar toast hella green juice heirloom. Gluten-free ugh synth skateboard seitan squid farm-to-table direct trade try-hard. Tbh vexillologist farm-to-table 90's kickstarter selfies listicle authentic, next level adaptogen chillwave. Af direct trade chambray everyday carry, post-ironic hell of messenger bag pitchfork gluten-free keytar.</p>
                             <p className="mb-8">Tote bag meggings yuccie semiotics, hexagon ennui deep v. Occupy green juice cloud bread gastropub af authentic church-key, lyft dreamcatcher. Poke chillwave vinyl, roof party twee raclette messenger bag tbh pug stumptown keffiyeh pickled hot chicken church-key listicle. Wolf sustainable copper mug shaman activated charcoal.</p>
                             <p className="mb-8">Distillery paleo coloring book, succulents kickstarter selfies pitchfork thundercats tousled narwhal fanny pack activated charcoal. Tote bag vice heirloom, hella thundercats flexitarian pork belly swag raw denim slow-carb. Kinfolk literally wayfarers cloud bread keffiyeh twee quinoa, ennui kale chips normcore kickstarter YOLO fashion axe subway tile slow-carb. Fingerstache selvage af 8-bit bespoke, marfa kickstarter chia distillery. Heirloom glossier pug normcore pok pok gochujang.</p>
@@ -43,24 +43,26 @@ export default function About () {
                     </div>
                 </div>
 
-                <div className="w-full md:w-1/2 md:pr-16 mt-4 pt-12 md:pt-20  md:bottom-0 order-4 md:order-3">
-                    <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:mb-6">
-                        <h1 className="font-bold my-4 md:mt-12 md:mb-4">More Info</h1>
+                <div className="w-full  w-1/3 md:pr-10 mt-4 pt-10 md:pt-20  md:bottom-0 order-4 md:order-3">
+                    <div className=" bg-cyan-700/20 shadow-xl p-6 rounded-2xl md:float-right md:text-right leading-loose tracking-tight mb-6">
+                        <h1 className="  font-bold my-3 ">Get In Touch</h1>
 
-                        <ul className="flex flex-wrap  justify-between flex-row ">
+                        <ul className="flex flex-wrap mb-6 justify-between flex-row ">
                             <li><a href="" className="hbout mx-2 ">Twitter</a></li>
                             <li><a href="" className="hbout mx-2 ">Instagram</a></li>
                             <li><a href="" className="hbout mx-2 ">Social</a></li>
                             <li><a href="" className="hbout mx-2 ">Media</a></li>
+                            <li><a href="" className="hbout mx-2 ">Github</a></li>
+                            <li><a href="" className="hbout mx-2 ">Link</a></li>
                         </ul>
                     </div>
                 </div>
 
 
 
-                <div className="w-full md:w-1/2 order-2 md:order-4">
-                    <div className="max-w-md leading-loose tracking-tight">
-                        <h1 className="font-bold my-4 md:my-12">Final Blurb</h1>
+                <div className="w-full w-2/3 order-2 md:order-4">
+                    <div className="bg-cyan-700/20 shadow-xl p-6 mt-24 rounded-2xl max-w-3xl leading-loose tracking-tight">
+                        <h1 className="font-bold my-3 ">Final Blurb</h1>
 
                         <p className="mb-8">Typewriter mlkshk la croix, unicorn poutine before they sold out coloring book vaporware +1 PBR&B tumblr iceland hoodie poke semiotics. Irony whatever before they sold out umami green juice.</p>
                     </div>

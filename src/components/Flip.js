@@ -7,7 +7,7 @@ export default function Flip() {
     return (
         <div className="simple">
 
-        <div className="container w-full mx-auto mt-16">
+        <div className="container w-full mx-auto mt-14 pt-8 ">
 
             <div className="p-20 flex flex-wrap items-center justify-center">
 
@@ -26,7 +26,7 @@ export default function Flip() {
                 </div>
 
 
-                <h1 className="text-4xl pt-10 "></h1>
+                
 
 
             </div>

@@ -16,7 +16,7 @@ export default function Posts() {
                             <h1 class="font-extrabold py-10 text-xl hover:text-cyan-600">This is a post title
                             </h1>
                             <p className="pb-10">
-                            Some words that dont connect with anything, not a preview of blog post.
+                            Some words that dont connect with anything, especially not a preview of blog post.
                             </p>
                         </div>
                     </div>

@@ -28,6 +28,7 @@ button:hover {
 .nav {
   box-shadow: 2px 2px 5px #713f12;
   text-shadow: 1px 1px 2px #a16207;
+  /* z-index: 50; */
 }
 
 .foot {
@@ -43,11 +44,18 @@ border-radius: 0 1% 0 0;
 }
 
 .burlap {
-  background-image: url("./assets/light-burlap.webp")
+  background-image: url("./assets/light-burlap.webp");
+}
+
+.crumple {
+  background-image: url("./assets/crumple.jpeg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
 }
 
 .simple {
-  background-image: url("./assets/simple.png");
+  background-image: url("./assets/simple.jpg");
   background-size: cover;
   background-attachment: fixed;
 
@@ -63,7 +71,7 @@ border-radius: 0 1% 0 0;
 .flip .card {
   position: relative;
   width: 70%;
-  height: 700px;
+  height: 760px;
   cursor: pointer;
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
@@ -288,28 +296,36 @@ border-radius: 0 1% 0 0;
   /* background-image: url("./assets/tunnel2.png"); */
   background-size: cover;
   background-position: center;
+  background-size: 100% 100%;
 }
 
-.still{
+/* .still{
   background-image: url("./assets/tunnel2.png");
-}
+} */
 
 .homepage .words {
-  position: absolute;
-  top: 0%;
-  left: 50%;
+  /* position: absolute; */
+  /* top: 0%; */
+  /* left: 0%; */
+  opacity: 70%;
   text-shadow: 2px, 2px, 8px black;
 }
 .homepage h1 {
   text-shadow: 2px, 2px, 8px black;
 }
 
+.homepage .image {
+  opacity: 90%;
+}
+
 .homepage .pause {
   /* padding: 7rem; */
-  position: absolute;
+  /* position: absolute; */
   font-size: 1.8em;
-  top: 0%;
-  left: 75%;
+  opacity: 90%;
+  /* top: 0%; */
+  /* align-self: flex-end; */
+  /* left: 65%; */
   text-shadow: 1px, 1px, 4px black;
 }
 
@@ -319,9 +335,7 @@ border-radius: 0 1% 0 0;
   transform: scale(1);
 }
 
-.homepage .toggle:active {
-  background-image: url("./assets/tunnel2.png");
-}
+
 
 /* ------------------------------------ */
 
@@ -355,29 +369,33 @@ border-radius: 0 1% 0 0;
 .object-and-details {
   display: inline-block;
   position: relative;
+  color:#713f12;
 }
 
 .butt {
-  color: #a16207;
-  background: #a16207;
+  /* color: #a16207; */
+  /* background: #a16207; */
+  color:#713f12;
   width: 4rem;
   height: 4rem;
   position: absolute;
   top: 9rem;
   right: 9rem;
-  z-index: 40;
+  z-index: 20;
   border-radius: 50%;
   background-image: url("https://assets.codepen.io/128034/play_circle_filled-24px.svg");
   background-size: 90% auto;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #a16207;
+  opacity: 80%;
 }
 
 [open] .butt {
   background-image: url("https://assets.codepen.io/128034/pause_circle_filled-24px.svg");
   /* box-shadow: 0 0 0 2px #a16207; */
-  background-color: #a16207;
+  /* background-color: #a16207; */
+  color:#713f12;
   z-index: 10;
 }
 
@@ -388,6 +406,7 @@ details summary::-webkit-details-marker {
 /* for firefox */
 details > summary:first-of-type {
   list-style: none;
+
 }
 
 .butt + * {
@@ -416,6 +435,7 @@ details > summary:first-of-type {
 .object-and-details1 .gif {
   display: inline-block;
   position: absolute;
+
   top: 0px;
   left: 0px;
   bottom: 0px;
