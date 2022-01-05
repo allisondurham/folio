@@ -4,7 +4,11 @@ import React from "react";
 
 export default function Oldest() {
     return (
-        <div className="container w-full mx-auto mt-28 mb-12">
+
+        <div className="burlap">
+
+        
+        <div className="container w-full mx-auto py-20 mt-14 ">
             <div className=" oldest mt-6 mx-auto p-20 flex flex-wrap justify-center">
                 <h1>Hi there!</h1>
                 <img
@@ -54,5 +58,6 @@ export default function Oldest() {
                 <script src="https://button.glitch.me/button.js" defer></script> */}
             </div>
         </div>
+                </div>
     );
 }

@@ -36,36 +36,39 @@ export default function Sidebar() {
                 <div className={`right-bar top-1 mt-14 right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': 'translate-x-full'}
                 ease-in-out duration-300`}>
-                    <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">SIDEBAR!</h2>
+                    <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">sidebar!</h2>
 
                 <div className="col-span-1 text-yellow-500">
-                    <div className="uppercase font-semibold mb-2 flex justify-center pl-5 md:justify-start">stuff on the right - internal
+                    <div className=" font-semibold mb-2 flex justify-center pl-5 md:justify-start">stuff on the right - internal
                     </div>
                     <div className="pl-8">
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2">
-                        <a href="/Flip">Flip</a>
+                        <a href="/Flip">flip</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="/Boxes" className="">Boxes</a>
+                            <a href="/Boxes" className="">boxes</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="/Carousel" className="">Carousel</a>
+                            <a href="/Carousel" className="">carousel</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Gouda_cheese" className="">Gouda</a>
+                            <a href="/Flex" className="">flex</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Brie" className="">Brie</a>
+                            <a href="/Pause" className="">pause</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="https://en.wikipedia.org/wiki/Muenster_cheese" className="">Muenster</a>
+                            <a href="/Meh" className="">meh or yeh?</a>
+                        </p>
+                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                            <a href="/Brick" className="">brick - currently down</a>
                         </p>
 
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 mb-2 ">
-                            <a href="/Calculator" className="">Calculator</a>
+                            <a href="/Calculator" className="">calculator</a>
                         </p>
                         <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
-                            <a href="/Oldest" className="">Oldest Code</a>
+                            <a href="/Oldest" className="">oldest Code</a>
                         </p>
                     </div>
                 </div>

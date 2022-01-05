@@ -9,7 +9,7 @@ export default function Thing1() {
                 <img className="" src={image} alt=""/>
 
                 
-            <h1 className="font-weight-light text-4xl pt-10  text-center font-extrabold">Thing1 - image carousel?</h1>
+            <h1 className="font-weight-light text-4xl pt-10  text-center font-extrabold">Thing1 - what will it be?</h1>
             
                 <div className="pl-10 pt-10 pb-20">
                 <div className=" pt-10">

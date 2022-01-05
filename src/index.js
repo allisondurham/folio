@@ -24,6 +24,10 @@ import {
   Carousel,
   CarouselData,
   About,
+  Flex,
+  BrickGame,
+  Meh,
+  Pause,
 } from "./components";
 
 
@@ -41,6 +45,10 @@ ReactDOM.render(
       <Route path="/Calculator" element={<Calc />} />
       <Route path="/Oldest" element={<Oldest />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Flex" element={<Flex />} />
+      <Route path="/Brick" element={<BrickGame />} />
+      <Route path="/Meh" element={<Meh />} />
+      <Route path="/Pause" element={<Pause />} />
       <Route path="/Carousel" element={<Carousel items={CarouselData} />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />

@@ -5,7 +5,7 @@ import image3 from "../assets/painting.png"
 
 export default function Flip() {
     return (
-        <div className="">
+        <div className="simple">
 
         <div className="container w-full mx-auto mt-16">
 

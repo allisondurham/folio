@@ -1,8 +1,8 @@
 
 import React from "react";
 import image from "./blog/blogAssets/hammock.png"
-// import gif from "../assets/tunnel.gif"
-// import still from "../assets/tunnel2.png"
+import gif from "../assets/tunnel.gif"
+import still from "../assets/tunnel2.png"
 
 
 
@@ -12,16 +12,38 @@ import image from "./blog/blogAssets/hammock.png"
 
 export default function Home() {
 
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce))");
+    const details = document.querySelector(".object-and-details > details");
+    
+    if (mediaQuery.matches) {
+        details.removeAttribute("open");
+    }
+
+
 
     return (
-        <div id="BGI" className="homepage mt-16"
-        // style={{backgroundImage: gif}}
-        >
+        <div id="background" className="gif homepage mt-16">
+
         
+            {/* <div class="object-and-details"> */}
+            {/* <div className=" p-28  flex flex-wrap items-center justify-center"> */}
+      
+                {/* <img src={still} className="still" alt="still" loading="lazy"/>
+                    <details open> */}
+                     
+                        {/* <!-- added role=button to summary to resolve iOS funkiness --> */}
+                        {/* <summary role="button" aria-label="static image"></summary>
+                        <div class="object-and-details1">
+                        <img src={gif} className="gif mt-16" alt="gif" loading="lazy"/>
+                        </div>
+                </details>
+            </div> */}
+        
+        {/* <div classname="container m-28 p-28"> */}
 
-        <div classname="container m-28 p-28">
+        <div className=" p-28  flex flex-wrap items-center justify-center">
+            
 
-            <div className=" p-28  flex flex-wrap items-center justify-center">
                 <img className="image  shadow-2xl mt-20  rounded-lg border-4 border-yellow-800 max-w-3xl h-auto  2xl:max-w-6xl align-middle" src={image} alt="" />
                 <h1 className="words mt-44 2xl:mt-48 2xl:text-5xl text-4xl pt-10 z-10">flashy homepage</h1>
                 <p id="btn" className="pause toggle z-10 pt-20">
@@ -33,6 +55,9 @@ export default function Home() {
         </div>
 
 
-        </div>
+
+
+
+
     );
 }

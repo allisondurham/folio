@@ -4,7 +4,7 @@ export default function Footer({ fixed }) {
     return (
         <div className="footer foot">
             <footer className="text-center lg:text-left bg-gradient-to-r from-yellow-700 to-yellow-400 text-yellow-900">
-                <div className="flex justify-center items-center lg:justify-between px-6 py-3 border-b border-yellow-800">
+                <div className="flex justify-center items-center lg:justify-between px-6 py-3 border-b border-yellow-800 z-20">
                     <div className="ml-6 hidden lg:block">
                         <span>Popular social networks:</span>
                     </div>

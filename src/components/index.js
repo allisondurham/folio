@@ -15,5 +15,9 @@ export { default as Oldest } from "./Oldest"
 export { Carousel } from "./Carousel"
 export { default as CarouselData } from "./CarouselData"
 export { default as About } from "./About";
+export { default as Flex } from "./Flex";
+export { default as Meh } from "./Meh";
+export { default as Pause } from "./Pause";
+export { default as BrickGame } from "./brickBreaker/src/index";
 
 
