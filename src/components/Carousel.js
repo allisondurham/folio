@@ -24,10 +24,10 @@ if (!Array.isArray(items) || items.length <= 0) {
 
 
     return (
-        <div className="burlap">
+        <div className="simple">
 
             <div className=" container w-full mx-auto mt-16">
-                <div className=" p-10 flex flex-wrap items-center justify-center">
+                <div className=" p-20 flex flex-wrap items-center justify-center">
 
                     <div className="carousel">
 

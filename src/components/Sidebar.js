@@ -33,43 +33,43 @@ export default function Sidebar() {
             </button>
                 )
             }
-                <div className={`right-bar top-1 mt-14 right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
+                <div className={`right-bar top-1 mt-16 right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': 'translate-x-full'}
                 ease-in-out duration-300`}>
-                    <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">sidebar!</h2>
+                    <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">s i d e b a r !</h2>
 
                 <div className="col-span-1 text-yellow-500">
-                    <div className="  mb-2 flex justify-center pl-5 md:justify-start">stuff on the right - internal
+                    <div className="  mb-4 flex justify-center pl-5 md:justify-start">s t u f f &nbsp; o n &nbsp; t h e &nbsp; r i g h t &nbsp;-&nbsp; i n t e r n a l
                     </div>
                     <div className="pl-20 text-xl 2xl:text-2xl">
 
-                        <p id="side" className="hover:text-yellow-700 pt-8 mb-2">
-                        <a href="/Flip">flip</a>
+                        <p id="side" className="hover:text-yellow-700 pt-8 mb-4">
+                        <a href="/Flip">f l i p</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-2">
-                            <a href="/Boxes" className="">boxes</a>
+                        <p id="side" className="hover:text-yellow-700 mb-4">
+                            <a href="/Boxes" className="">b o x e s</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-2">
-                            <a href="/Carousel" className="">carousel</a>
+                        <p id="side" className="hover:text-yellow-700 mb-4">
+                            <a href="/Carousel" className="">c a r o u s e l</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-2">
-                            <a href="/Flex" className="">flex</a>
+                        <p id="side" className="hover:text-yellow-700 mb-4">
+                            <a href="/Flex" className="">f l e x</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-2">
-                            <a href="/Pause" className="">pause</a>
+                        <p id="side" className="hover:text-yellow-700 mb-4">
+                            <a href="/Pause" className="">p a u s e</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700  mb-2">
-                            <a href="/Meh" className="">meh or yeh?</a>
+                        <p id="side" className="hover:text-yellow-700  mb-4">
+                            <a href="/Meh" className="">m e h &nbsp; o r &nbsp; y e h ?</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700   mb-2">
-                            <a href="/Brick" className="">brick - currently down</a>
+                        <p id="side" className="hover:text-yellow-700   mb-4">
+                            <a href="/Brick" className="">b r i c k &nbsp;-&nbsp; c u r r e n t l y &nbsp; d o w n</a>
                         </p>
 
-                        <p id="side" className="hover:text-yellow-700 mb-2 ">
-                            <a href="/Calculator" className="">calculator</a>
+                        <p id="side" className="hover:text-yellow-700 mb-4 ">
+                            <a href="/Calculator" className="">c a l c u l a t o r</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700  mb-2">
-                            <a href="/Oldest" className="">oldest code</a>
+                        <p id="side" className="hover:text-yellow-700  mb-4">
+                            <a href="/Oldest" className="">o l d e s t &nbsp; c o d e</a>
                         </p>
                     </div>
                 </div>

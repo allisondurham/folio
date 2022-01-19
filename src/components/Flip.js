@@ -7,7 +7,7 @@ export default function Flip() {
     return (
         <div className="simple">
 
-        <div className="container w-full mx-auto mt-14 pt-8 ">
+        <div className="container w-full mx-auto mt-14 py-12 ">
 
             <div className="p-20 flex flex-wrap items-center justify-center">
 

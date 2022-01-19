@@ -1,7 +1,8 @@
 
 import React from "react";
 import image from "./blog/blogAssets/hammock.png"
-// import image from "../assets/simple.jpg"
+import image2 from "../assets/simple.jpg"
+import black from "../assets/black.jpeg"
 import gif from "../assets/tunnel.gif"
 import still from "../assets/tunnel2.png"
 
@@ -45,7 +46,9 @@ export default function Home() {
         <div className=" p-28   mx-64 flex items-center justify-center">
             
 
-                <img className="image  shadow-2xl mt-32 mb-10 2xl:mt-24 2xl:mb-10 rounded-lg border-4 border-yellow-800/60 max-w-xl h-auto  2xl:max-w-3xl align-middle" src={image} alt="" />
+                {/* <img className="image  shadow-2xl mt-32 mb-10 2xl:mt-24 2xl:mb-10 rounded-2xl border-4 border-yellow-800/60 max-w-xl h-auto z-10 2xl:max-w-3xl align-middle"  src={image} alt="" /> */}
+                <img className="image  shadow-2xl mt-32 mb-10 2xl:mt-24 2xl:mb-10 rounded-2xl border-4 border-yellow-900/50 max-w-xl h-auto z-10 2xl:max-w-3xl align-middle"  src={black} alt="" />
+                {/* <img className="image2  absolute shadow-2xl mt-11 p mb-20 2xl:mt-8 2xl:mb-10 rounded-3xl border-4 border-yellow-800/60 max-w-2xl  z-0 2xl:max-w-4xl  align-middle"  src={image2} alt="" /> */}
 
                 <div className=" flex space-x-2 pt-10 2xl:pt-24  2xl:space-x-12 top-2 2xl:ml-52  ml-60 2xl:pl-20 absolute mt-52 " >
 

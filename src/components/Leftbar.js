@@ -33,7 +33,7 @@ export default function Leftbar() {
             </button>
                 )
             }
-                <div className={`left-bar top-1 z-40 mt-14 rounded-xl shadow-xl left-0 fixed overflow-scroll bg-gradient-to-br from-yellow-800/95 to-cyan-700/95  w-[35vw] h-full p-3
+                <div className={`left-bar top-1 z-40 mt-16 rounded-xl shadow-xl left-0 fixed overflow-scroll bg-gradient-to-br from-yellow-800/95 to-cyan-700/95  w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': '-translate-x-full'}
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-24 font-extrabold">leftbar!</h2>

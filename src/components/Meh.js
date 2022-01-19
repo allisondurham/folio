@@ -1,15 +1,26 @@
 import React from "react";
-import image from "../assets/box2.jpg";
+// import image from "../assets/pick.png";
+import song from "../assets/soundClip.mp3"
 
 export default function Meh () {
     return (
-        <div className="burlap">
-            <div className="container w-full mx-auto mt-16">
-                <div className=" p-20 flex flex-wrap items-center justify-center">
+        <div className="simple mt-16">
+            <div className=" w-full mx-auto mt-16">
+                <div className=" p-20  items-center justify-center">
 
-                <img className="" src={image} alt=""/>
+                {/* <img className="" src={image} alt=""/> */}
 
-<p className="absolute top-52">future page of meh or yeh, idea for voting on stuff </p>
+<div className="grid grid-cols-4 gap-6 mt-20">
+<p className=" p-10 bg-lime-900/50 mb-32 rounded-2xl">future page of meh or yeh, idea for voting on stuff </p>
+
+<p className=" p-12 bg-yellow-700/50 rounded-full py-24">Click on Play button...</p>
+<p className="p-10 bg-lime-700/50 rounded-2xl mt-40 py-8">(Tech House Vibes by Alejandro Magaria)</p>
+    <div className="bg-cyan-700/50 py-20 rounded-full">
+    <audio controls >
+        <source src={song} type="audio/mpeg"/>
+    </audio>
+    </div>
+</div>
 
 
                 </div>

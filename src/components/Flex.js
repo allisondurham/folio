@@ -1,6 +1,7 @@
 import React from "react";
 // import image from "../assets/ribbon.jpeg";
 import image from "../assets/box4.jpg";
+import image2 from "../assets/box6.jpg";
 
 export default function Flex () {
     return (
@@ -39,11 +40,11 @@ export default function Flex () {
             <div className="grid grid-cols-3 gap-2  ">
                 <img className=" grow rounded-xl" src={image} alt=""/>
                 <img className=" grow rounded-xl" src={image} alt=""/>
+                <img className=" grow rounded-xl" src={image2} alt=""/>
                 <img className=" grow rounded-xl" src={image} alt=""/>
+                <img className=" grow rounded-xl" src={image2} alt=""/>
                 <img className=" grow rounded-xl" src={image} alt=""/>
-                <img className=" grow rounded-xl" src={image} alt=""/>
-                <img className=" grow rounded-xl" src={image} alt=""/>
-                <img className=" grow rounded-xl" src={image} alt=""/>
+                <img className=" grow rounded-xl" src={image2} alt=""/>
                 <img className=" grow rounded-xl" src={image} alt=""/>
                 <img className=" grow rounded-xl" src={image} alt=""/>
             </div>
@@ -54,9 +55,31 @@ export default function Flex () {
 <div className="grid grid-cols-3 gap-16 py-16" >
 
 <div className="grid grid-cols-1 gap-6">
+    
+    <div className="grid grid-cols-2 gap-2">
+
+    <img className=" shrink rounded-xl" src={image2} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image2} alt=""/>
+    </div>
+    
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <div className="grid grid-cols-4 gap-2">
+
     <img className=" shrink rounded-xl" src={image} alt=""/>
     <img className=" shrink rounded-xl" src={image} alt=""/>
     <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    <img className=" shrink rounded-xl" src={image} alt=""/>
+    </div>
 
 </div>
 
@@ -75,7 +98,25 @@ export default function Flex () {
 
 </div>
 
-<div className="grid grid-cols-3 gap-6">
+<div className="items-center grid grid-cols-3 gap-6">
+<div className="grid grid-cols-3  gap-3">
+
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+</div>
+    <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+    <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+    <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+   
+   <div className="grid grid-cols-3  gap-3">
+
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
@@ -85,14 +126,41 @@ export default function Flex () {
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+   </div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
     <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
-    <div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+    <div className="grid grid-cols-3  gap-3">
+
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+</div>
+
+    <div className="grid grid-cols-3  gap-3">
+
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+</div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
+<div className="h-6 w-6 grow rounded shadow bg-lime-700"></div>
 </div>
 </div>
 
-<div className="grid grid-cols-5 gap-4 ">
+<div className="grid grid-cols-6 gap-4 ">
     <div className="h-16 w-40 grow rounded shadow bg-yellow-900">1</div>
     <div className="h-16 w-40 grow rounded shadow bg-yellow-900">1</div>
     <div className="h-16 w-40 grow rounded shadow bg-yellow-900">1</div>

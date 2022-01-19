@@ -8,17 +8,17 @@ import box6 from "../assets/box6.jpg";
 
 export default function Home() {
     return (
-        <div className="burlap">
+        <div className="simple">
 
-        <div className="container w-full mx-auto mt-16">
+        <div className="container w-full mx-auto mt-16 ">
 
 
-            <section className="boxes py-20 justify-center">
-                <div className="card">
+            <section className="boxes py-20 grid grid-cols-3 justify-center">
+                <div className="card ">
                     <img className="image" src={box1} alt=""/>
                     <div className="p-5">
                         <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
+                        <p>Copper mug direct trade venmo raclette brunch pinterest.  Coloring book selvage palo santo.</p>
                     </div>
                     <div className="middle">
                         <div>
