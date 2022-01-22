@@ -1,0 +1,63 @@
+npm run start
+
+this is a compilation of a lot of tutorials
+
+first time using react
+first time using tailwind
+
+
+
+
+main resources:
+
+    1.
+    build an animated sidebar with react and css
+    https://www.youtube.com/watch?v=Pe1Vo2N3Z2c&ab_channel=JamesQQuick
+
+    2.
+    how to create multi-page site using react
+    https://www.youtube.com/watch?v=ZfQs-OJScOM&ab_channel=Techomoro
+    https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/
+
+    3.
+    sticky nav bar
+    cant find the source i used for it
+
+    4.
+    footer
+    https://tailwind-elements.com/docs/standard/navigation/footer/
+
+    5. 
+    tailwind docs
+    https://tailwindcss.com/docs/installation
+
+    6.
+    flip card
+    https://webdevtrick.com/css-card-flip-reflection/
+
+    7.
+    toggle image
+    
+
+
+
+
+
+
+
+
+
+
+    photo credits
+    
+    pexels
+    boxes2 Photo by Cliford Mervil from Pexels
+    boxes3 Photo by Manuela Adler from Pexels
+    boxes4 Photo by Karolina from Pexels
+    boxes5 Photo by Marta Wave from Pexels
+    boxes6 Photo by Eneida Nieves from Pexels
+
+
+    icon use requirements:  link to license, attribution, indication if changes were made
+    https://fontawesome.com/license
+
