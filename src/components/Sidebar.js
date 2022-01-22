@@ -6,7 +6,7 @@ export default function Sidebar() {
         <>
         {!isOpen ?
             (
-            <button className="fixed z-30 flex items-center cursor-pointer right-10 top-20" onClick={() => setIsOpen(!isOpen)}>
+            <button className="fixed z-30 flex items-center cursor-pointer right-4 md:right-10 md:top-20 top-4 " onClick={() => setIsOpen(!isOpen)}>
                 <svg
                     onClick={() => setIsOpen(!isOpen)}
                     
@@ -23,7 +23,7 @@ export default function Sidebar() {
                 </svg>
             </button>
         ) : (
-            <button className="text-3xl text-yellow-400  fixed top-20 right-10 z-50"
+            <button className="text-3xl text-yellow-400  fixed md:top-20 right-4 md:right-10 top-4  z-50"
             onClick={() => setIsOpen(!isOpen)}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-11 w-11" viewBox="0 0 20 20" fill="currentColor">
@@ -36,40 +36,40 @@ export default function Sidebar() {
                 <div className={`right-bar top-1 mt-16 bottom-12  right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw]  p-3
                 ${isOpen ? 'translate-x-0': 'translate-x-full'}
                 ease-in-out duration-300`}>
-                    <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">s i d e b a r !</h2>
+                    <h2 className="text-2xl text-yellow-400 pt-4 md:pt-20 pl-2 md:pl-5 font-extrabold">sidebar!</h2>
 
                 <div className="col-span-1 text-yellow-500">
-                    <div className="  mb-4 flex justify-center pl-5 md:justify-start">s t u f f &nbsp; o n &nbsp; t h e &nbsp; r i g h t &nbsp;-&nbsp; i n t e r n a l
+                    <div className="  mb-2 flex justify-center pl-4 md:pl-5 md:justify-start">stuff on the right - internal
                     </div>
-                    <div className="pl-20 text-xl 2xl:text-2xl">
+                    <div className="pl-2 md:pl-20 text-lg md:text-2xl ">
 
-                        <p id="side" className="hover:text-yellow-700 pt-8 mb-4">
-                        <a href="/Flip">f l i p</a>
+                        <p id="side" className="hover:text-yellow-700 pt-8 mb-2">
+                        <a href="/Flip">flip</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-4">
-                            <a href="/Boxes" className="">b o x e s</a>
+                        <p id="side" className="hover:text-yellow-700 mb-2">
+                            <a href="/Boxes" className="">boxes</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-4">
-                            <a href="/Carousel" className="">c a r o u s e l</a>
+                        <p id="side" className="hover:text-yellow-700 mb-2">
+                            <a href="/Carousel" className="">carousel</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-4">
-                            <a href="/Flex" className="">f l e x</a>
+                        <p id="side" className="hover:text-yellow-700 mb-2">
+                            <a href="/Flex" className="">flex</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 mb-4">
-                            <a href="/Pause" className="">p a u s e</a>
+                        <p id="side" className="hover:text-yellow-700 mb-2">
+                            <a href="/Pause" className="">pause</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700  mb-4">
-                            <a href="/Meh" className="">m e h &nbsp; o r &nbsp; y e h ?</a>
+                        <p id="side" className="hover:text-yellow-700  mb-2">
+                            <a href="/Meh" className="">meh or yeh?</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700   mb-4">
-                            <a href="/Brick" className="">b r i c k &nbsp;-&nbsp; c u r r e n t l y &nbsp; d o w n</a>
+                        <p id="side" className="hover:text-yellow-700   mb-2">
+                            <a href="/Brick" className="">brick - under construction</a>
                         </p>
 
-                        <p id="side" className="hover:text-yellow-700 mb-4 ">
-                            <a href="/Calculator" className="">c a l c u l a t o r</a>
+                        <p id="side" className="hover:text-yellow-700 mb-2">
+                            <a href="/Calculator" className="">calculator</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700  mb-4">
-                            <a href="/Oldest" className="">o l d e s t &nbsp; c o d e</a>
+                        <p id="side" className="hover:text-yellow-700  mb-2">
+                            <a href="/Oldest" className="">oldest code</a>
                         </p>
                     </div>
                 </div>

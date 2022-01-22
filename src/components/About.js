@@ -28,7 +28,7 @@ export default function About () {
                 <div className="w-full md:w-2/3 py-2 order-2 md:order-2">
                     <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-extrabold my-3">background and interests</h1>
-                        <div className="text-yellow-600">
+                        <div className="text-stone-500">
                             <p className="mb-8">Four dollar toast hella green juice heirloom. Gluten-free ugh synth skateboard seitan squid farm-to-table direct trade try-hard. Tbh vexillologist farm-to-table 90's kickstarter selfies listicle authentic, next level adaptogen chillwave. Af direct trade chambray everyday carry, post-ironic hell of messenger bag pitchfork gluten-free keytar.</p>
                             <p className="mb-8">Tote bag meggings yuccie semiotics, hexagon ennui deep v. Occupy green juice cloud bread gastropub af authentic church-key, lyft dreamcatcher. Poke chillwave vinyl, roof party twee raclette messenger bag tbh pug stumptown keffiyeh pickled hot chicken church-key listicle. Wolf sustainable copper mug shaman activated charcoal.</p>
                             <p className="mb-8">Distillery paleo coloring book, succulents kickstarter selfies pitchfork thundercats tousled narwhal fanny pack activated charcoal. Tote bag vice heirloom, hella thundercats flexitarian pork belly swag raw denim slow-carb. Kinfolk literally wayfarers cloud bread keffiyeh twee quinoa, ennui kale chips normcore kickstarter YOLO fashion axe subway tile slow-carb. Fingerstache selvage af 8-bit bespoke, marfa kickstarter chia distillery. Heirloom glossier pug normcore pok pok gochujang.</p>
@@ -64,10 +64,10 @@ export default function About () {
 
 
                 <div className="w-full py-2 md:w-2/3 order-4 md:order-4">
-                    <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 sm:mb-10 md:mb-0 md:mt-12 rounded-2xl max-w-3xl leading-loose tracking-tight">
+                    <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 mb-12 md:mb-0 md:mt-12 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-bold my-3 ">Final Blurb</h1>
 
-                        <p className="mb-8 text-yellow-600">Typewriter mlkshk la croix, unicorn poutine before they sold out coloring book vaporware +1 PBR&B tumblr iceland hoodie poke semiotics. Irony whatever before they sold out umami green juice.</p>
+                        <p className="mb-8 text-stone-500">Typewriter mlkshk la croix, unicorn poutine before they sold out coloring book vaporware +1 PBR&B tumblr iceland hoodie poke semiotics. Irony whatever before they sold out umami green juice.</p>
                     </div>
                 </div>
 

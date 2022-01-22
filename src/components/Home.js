@@ -24,16 +24,10 @@ export default function Home() {
 
 
     return (
-        <div id="" className="home relative">
+        <div id="" className="home  mt-16  relative">
             <input type="checkbox" loading="lazy"/>
-            <img src={bg} className="bg rounded-3xl" alt="background"/>
-            <div className="absolute z=50 text-5xl text-yellow-700 words">
-                {/* <p className="text-yellow-700/90">software engineer</p>
-                <p className="ml-4 text-yellow-600/50">software engineer</p>
-                <p className="ml-8 text-cyan-700/40">software engineer</p>
-                <p className="ml-12 text-yellow-700/40">software engineer</p>
-                <p className="ml-16 text-yellow-600/30">software engineer</p>
-                <p className="ml-20 text-cyan-700/20">software engineer</p> */}
+            
+            <div className="absolute z=50 text:xs md:text-2xl lg:text-4xl xl:text-5xl text-yellow-700 words ">
 
                 <p className="text-yellow-700/90">software engineer</p>
                 <p className="ml-4 text-yellow-600/60">problem solver</p>
@@ -42,10 +36,7 @@ export default function Home() {
                 <p className="ml-16 text-yellow-600/50">artist</p>
                 <p className="ml-20 text-cyan-700/50">fun</p>
 
-
             </div>
-
         </div>
-
     );
 }

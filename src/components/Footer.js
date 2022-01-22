@@ -3,8 +3,8 @@ import React from "react";
 export default function Footer({ fixed }) {
     return (
         <div className="footer ">
-            <footer className="text-center foot lg:text-left bg-gradient-to-r from-yellow-700 to-yellow-500 w-full text-yellow-900 fixed bottom-0 z-10">
-                <div className="flex justify-center items-center lg:justify-between px-6 py-3 border-b border-yellow-800 ">
+            <footer className="text-center foot lg:text-left  w-full text-yellow-900 fixed bottom-0 z-10">
+                <div className="flex justify-center items-center lg:justify-between px-6 py-3 border-b border-stone-900 ">
                     <div className="ml-6 hidden lg:block">
                         <span>making cool stuff happen.</span>
                     </div>

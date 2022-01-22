@@ -6,7 +6,7 @@ export default function Leftbar() {
         <>
         {!isOpen ?
             (
-            <button className="fixed z-30 flex items-center cursor-pointer left-10 top-20" onClick={() => setIsOpen(!isOpen)}>
+            <button className="fixed z-30 flex items-center cursor-pointer top-4 left-4 md:left-10 md:top-20" onClick={() => setIsOpen(!isOpen)}>
                 <svg
                     onClick={() => setIsOpen(!isOpen)}
                     
@@ -23,7 +23,7 @@ export default function Leftbar() {
                 </svg>
             </button>
         ) : (
-            <button className="text-3xl text-yellow-400  fixed top-20 left-10 z-50"
+            <button className="text-3xl text-yellow-400  fixed top-4 md:top-20 left-4 md:left-10 z-50"
             onClick={() => setIsOpen(!isOpen)}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-11 w-11" viewBox="0 0 20 20" fill="currentColor">
@@ -36,32 +36,32 @@ export default function Leftbar() {
                 <div className={`left-bar top-1 z-40 mt-16 rounded-xl shadow-xl left-0 fixed overflow-scroll bg-gradient-to-br from-yellow-800/95 to-cyan-700/95  w-[35vw] h-full p-3
                 ${isOpen ? 'translate-x-0': '-translate-x-full'}
                 ease-in-out duration-300`}>
-                    <h2 className="text-2xl text-yellow-400 pt-20 pl-24 font-extrabold">leftbar!</h2>
+                    <h2 className="text-2xl text-yellow-400 pt-4 md:pt-20 pl-2 md:pl-24 font-extrabold">leftbar!</h2>
 
-                <div className="col-span-1 text-yellow-500 pl-24 ">
+                <div className="col-span-1 text-yellow-500 pl-4 md:pl-24 ">
                     <div className="font-bold mb-2 flex justify-center md:justify-start">slide to the left - external
                     </div>
-                    <div className="">
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12 pt-8 mb-2">
+                    <div className="pl-1 md: pl-12 text-lg md:text-2xl font-semibold">
+                        <p id="side" className="hover:text-yellow-700    pt-8 mb-2">
                             <a href="https://blog-next-js-sigma.vercel.app/" className="">next.js blog</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2 ">
+                        <p id="side" className="hover:text-yellow-700  mb-2 ">
                             <a href="https://stormy-coast-33083.herokuapp.com/" className="">artTracker</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700   mb-2">
                             <a href="http://allisondurham.pythonanywhere.com/" className="">djangoGirls</a>
                         </p>
                         
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700   mb-2">
                             <a href="https://earsketch.gatech.edu/earsketch2/?sharing=TshpLEOWEowz30twX69L0A" className="">earsketch</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700    mb-2">
                             <a href="https://replit.com/@AllisonDurham/turtle-game#main.py" className="">turtle</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700    mb-2">
                             <a href="https://deserted-funky-beach.glitch.me/" className="">glitch</a>
                         </p>
-                        <p id="side" className="hover:text-yellow-700 text-2xl font-semibold pl-12  mb-2">
+                        <p id="side" className="hover:text-yellow-700   mb-2">
                             <a href="https://scratch.mit.edu/projects/454614781/" className="">scratch</a>
                         </p>
                     </div>
