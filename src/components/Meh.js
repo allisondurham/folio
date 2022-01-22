@@ -4,7 +4,7 @@ import song from "../assets/soundClip.mp3"
 
 export default function Meh () {
     return (
-        <div className="simple mt-16">
+        <div className="simple mt-16 w-full  ">
             <div className=" w-full mx-auto mt-16">
                 <div className=" p-20  items-center justify-center">
 

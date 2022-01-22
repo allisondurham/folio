@@ -26,7 +26,7 @@ export default function Home() {
     return (
         <div id="" className="home relative">
             <input type="checkbox" loading="lazy"/>
-            <img src={bg} className="black rounded-3xl" alt="background"/>
+            <img src={bg} className="bg rounded-3xl" alt="background"/>
             <div className="absolute z=50 text-5xl text-yellow-700 words">
                 {/* <p className="text-yellow-700/90">software engineer</p>
                 <p className="ml-4 text-yellow-600/50">software engineer</p>

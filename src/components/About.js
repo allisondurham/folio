@@ -7,11 +7,11 @@ export default function About () {
 
 
 
-            <div className="about p-6 sm:p-10 md:p-28 flex flex-wrap">
+            <div className="about p-6  md:p-28 flex flex-wrap">
 
-                <div className=" w-full w-1/3 md:pr-10 pl-2 order-3 md:order-1">
+                <div className=" sm:w-full md:w-1/3  mt-0 md:pr-10 md:pl-2 py-2 order-1 md:order-1">
 
-                    <div className="bg-stone-600/50 p-6 backdrop-blur-sm shadow-xl rounded-2xl max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-16 ">
+                    <div className="bg-stone-600/50 p-6 backdrop-blur-sm shadow-xl rounded-2xl  md:float-right text-right leading-loose tracking-tight sticky mt-24 md:mt-0 md:top-16 ">
 
                         {/* <h1 className="font-bold py-2 ">Left column pic and links</h1> */}
                         <img className="rounded-2xl" src={image} alt=""/>
@@ -25,7 +25,7 @@ export default function About () {
                     </div>
                 </div>
 
-                <div className="w-full w-2/3 order-1 md:order-2">
+                <div className="w-full md:w-2/3 py-2 order-2 md:order-2">
                     <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-extrabold my-3">background and interests</h1>
                         <div className="text-yellow-600">
@@ -46,8 +46,8 @@ export default function About () {
                     </div>
                 </div>
 
-                <div className="w-full  w-1/3 md:pr-10 mt-4 pt-10 md:pt-20  md:bottom-0 order-4 md:order-3">
-                    <div className=" bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl md:float-right md:text-right leading-loose tracking-tight mb-6">
+                <div className="w-full md:w-1/3 py-2 md:pr-10 md:mt-4 md:pt-10 md:pt-20  md:bottom-0 order-3 md:order-3">
+                    <div className=" bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl md:float-right md:text-right leading-loose tracking-tight md:mb-6">
                         <h1 className="  font-bold my-3 ">Get In Touch</h1>
 
                         <ul className="grid grid-cols-3 mb-6 justify-between flex-row ">
@@ -63,8 +63,8 @@ export default function About () {
 
 
 
-                <div className="w-full w-2/3 order-2 md:order-4">
-                    <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 mt-24 rounded-2xl max-w-3xl leading-loose tracking-tight">
+                <div className="w-full py-2 md:w-2/3 order-4 md:order-4">
+                    <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 sm:mb-10 md:mb-0 md:mt-12 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-bold my-3 ">Final Blurb</h1>
 
                         <p className="mb-8 text-yellow-600">Typewriter mlkshk la croix, unicorn poutine before they sold out coloring book vaporware +1 PBR&B tumblr iceland hoodie poke semiotics. Irony whatever before they sold out umami green juice.</p>
