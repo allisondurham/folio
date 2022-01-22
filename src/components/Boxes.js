@@ -14,11 +14,11 @@ export default function Home() {
 
 
             <section className="boxes py-20 grid grid-cols-3 justify-center">
-                <div className="card ">
+                <div className="card bg-stone-600/50 backdrop-blur-sm">
                     <img className="image" src={box1} alt=""/>
                     <div className="p-5">
-                        <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest.  Coloring book selvage palo santo.</p>
+                        <h1 className=" text-xl font-extrabold ">Hipster Ipsum</h1>
+                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki  coloring book selvage palo santo.</p>
                     </div>
                     <div className="middle">
                         <div>
@@ -30,7 +30,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card bg-stone-600/50 backdrop-blur-sm">
                     <img className="image" src={box2} alt=""/>
                     <div className="p-5">
                     <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
@@ -45,7 +45,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card bg-stone-600/50 backdrop-blur-sm">
                     <img className="image" src={box5} alt=""/>
                     <div className="p-5">
                     <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
 
 
-                <div className="card">
+                <div className="card bg-stone-600/50 backdrop-blur-sm">
                     <img className="image" src={box3} alt=""/>
                     <div className="p-5">
                     <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
@@ -70,7 +70,7 @@ export default function Home() {
                     </div>
                     <div className="middle">
                         <div>
-                            <h1 className="article text-center bg-yellow-500 text-xl pl-15">
+                            <h1 className="article text-center bg-yellow-500 text-xl ">
                                 <a href="https://reactjs.org/">
                                     &nbsp; Learn More &nbsp;
                                 </a>
@@ -78,7 +78,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card bg-stone-600/50 backdrop-blur-sm">
                     <img className="image" src={box4} alt=""/>
                     <div className="p-5">
                     <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
@@ -94,7 +94,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card bg-stone-600/50 backdrop-blur-sm">
                     <img className="image" src={box6} alt=""/>
                     <div className="p-5">
                     <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>

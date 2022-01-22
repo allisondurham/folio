@@ -24,49 +24,28 @@ export default function Home() {
 
 
     return (
-        <div id="background" className="gif 2xl:py-24 homepage mt-16">
+        <div id="" className="home relative">
+            <input type="checkbox" loading="lazy"/>
+            <img src={black} className="black rounded-3xl" alt="black" loading="lazy"/>
+            <div className="absolute z=50 text-5xl text-yellow-700 words">
+                {/* <p className="text-yellow-700/90">software engineer</p>
+                <p className="ml-4 text-yellow-600/50">software engineer</p>
+                <p className="ml-8 text-cyan-700/40">software engineer</p>
+                <p className="ml-12 text-yellow-700/40">software engineer</p>
+                <p className="ml-16 text-yellow-600/30">software engineer</p>
+                <p className="ml-20 text-cyan-700/20">software engineer</p> */}
 
-        
-            {/* <div class="object-and-details"> */}
-            {/* <div className=" p-28  flex flex-wrap items-center justify-center"> */}
-      
-                {/* <img src={still} className="still" alt="still" loading="lazy"/>
-                    <details open> */}
-                     
-                        {/* <!-- added role=button to summary to resolve iOS funkiness --> */}
-                        {/* <summary role="button" aria-label="static image"></summary>
-                        <div class="object-and-details1">
-                        <img src={gif} className="gif mt-16" alt="gif" loading="lazy"/>
-                        </div>
-                </details>
-            </div> */}
-        
-        <div classname="container  mx-28 p-28">
+                <p className="text-yellow-700/90">software engineer</p>
+                <p className="ml-4 text-yellow-600/60">problem solver</p>
+                <p className="ml-8 text-cyan-700/60">adventurer</p>
+                <p className="ml-12 text-yellow-700/60">musician</p>
+                <p className="ml-16 text-yellow-600/50">artist</p>
+                <p className="ml-20 text-cyan-700/50">fun</p>
 
-        <div className=" p-28   mx-64 flex items-center justify-center">
-            
 
-                {/* <img className="image  shadow-2xl mt-32 mb-10 2xl:mt-24 2xl:mb-10 rounded-2xl border-4 border-yellow-800/60 max-w-xl h-auto z-10 2xl:max-w-3xl align-middle"  src={image} alt="" /> */}
-                <img className="image  shadow-2xl mt-32 mb-10 2xl:mt-24 2xl:mb-10 rounded-2xl border-4 border-yellow-900/50 max-w-xl h-auto z-10 2xl:max-w-3xl align-middle"  src={black} alt="" />
-                {/* <img className="image2  absolute shadow-2xl mt-11 p mb-20 2xl:mt-8 2xl:mb-10 rounded-3xl border-4 border-yellow-800/60 max-w-2xl  z-0 2xl:max-w-4xl  align-middle"  src={image2} alt="" /> */}
-
-                <div className=" flex space-x-2 pt-10 2xl:pt-24  2xl:space-x-12 top-2 2xl:ml-52  ml-60 2xl:pl-20 absolute mt-52 " >
-
-                <h1 className="words inline 2xl:text-4xl text-3xl pt-2 2xl:pt-4 z-20 pl-10 pr-4">flashy homepage</h1>
-                <p id="btn" className=" inline pause toggle z-10 ml-72 pr-4 z-20">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" className="rounded-full shadow pause mr-10 2xl:mr-0 2xl:h-16 2xl:w-16  z-10 bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fillRule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
-                    </svg>
-                </p>
-                </div>
             </div>
+
         </div>
-        </div>
-
-
-
-
-
 
     );
 }

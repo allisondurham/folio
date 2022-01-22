@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
                     <div className="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
                         <a className="text-white no-underline hover:text-cyan hover:no-underline" href="/">
                             <span className="text-4xl text-yellow-900 pl-2 hover:text-cyan-900" id="nav1">
-                                <i  className="em shadow-yellow-800 em-grinning"></i> a. durham - programmer
+                                <i  className="em shadow-yellow-800 em-grinning"></i> allison durham
                             </span>
                         </a>
                     </div>
@@ -28,7 +28,7 @@ export default function Navbar({ fixed }) {
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Thing2">Thing2</a>
                             </li> */}
                             <li className="mr-3">
-                                <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Blog">blog</a>
+                                <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Boxes">projects</a>
                             </li>
                         </ul>
                     </div>

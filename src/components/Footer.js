@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Footer({ fixed }) {
     return (
-        <div className="footer foot">
-            <footer className="text-center lg:text-left bg-gradient-to-r from-yellow-700 to-yellow-500 text-yellow-900 absolute z-10">
+        <div className="footer ">
+            <footer className="text-center foot lg:text-left bg-gradient-to-r from-yellow-700 to-yellow-500 w-full text-yellow-900 fixed bottom-0 z-10">
                 <div className="flex justify-center items-center lg:justify-between px-6 py-3 border-b border-yellow-800 ">
                     <div className="ml-6 hidden lg:block">
-                        <span>Popular social networks:</span>
+                        <span>making cool stuff happen.</span>
                     </div>
                     <div className="flex justify-center">
                         <a href="https://facebook.com/" className="mr-6 text-yellow-900">
@@ -47,7 +47,7 @@ export default function Footer({ fixed }) {
                         </a>
                     </div>
                 </div>
-                <div className="px- py-6 text-center md:text-left border-b border-yellow-800">
+                {/* <div className="px- py-6 text-center md:text-left border-b border-yellow-800">
                     <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
                         <div className=" col-span-2 pr-6 pl-8">
                             <h6 className="uppercase font-semibold ml-0 mb-4 flex items-center justify-center md:justify-start">
@@ -126,11 +126,11 @@ export default function Footer({ fixed }) {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div className="text-center py-4 bg-gradient-to-r from-yellow-700 to-yellow-500">
+                </div> */}
+                {/* <div className="text-center py-4 bg-gradient-to-r from-yellow-700 to-yellow-500">
                     <span>© 2021 Copywright:  </span>
                     <a className=" text-yellow-900 font-semibold" href="https://tailwind-elements.com/">Can I make this text scroll across the bottom?</a>
-                </div>
+                </div> */}
             </footer>
         </div>
     );

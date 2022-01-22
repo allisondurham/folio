@@ -33,7 +33,7 @@ export default function Sidebar() {
             </button>
                 )
             }
-                <div className={`right-bar top-1 mt-16 right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw] h-full p-3
+                <div className={`right-bar top-1 mt-16 bottom-12  right-0 shadow-xl z-40 rounded-lg fixed overflow-scroll bg-gradient-to-br from-cyan-700/95 to-yellow-800/95 w-[35vw]  p-3
                 ${isOpen ? 'translate-x-0': 'translate-x-full'}
                 ease-in-out duration-300`}>
                     <h2 className="text-2xl text-yellow-400 pt-20 pl-5 font-extrabold">s i d e b a r !</h2>

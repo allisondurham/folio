@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/box2.jpg";
+import image from "../assets/selfie.jpeg";
 
 export default function About () {
     return (
@@ -11,14 +11,14 @@ export default function About () {
 
                 <div className=" w-full w-1/3 md:pr-10 pl-2 order-3 md:order-1">
 
-                    <div className="bg-stone-900/80 p-6 shadow-xl rounded-2xl max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
+                    <div className="bg-stone-600/50 p-6 backdrop-blur-sm shadow-xl rounded-2xl max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-16 ">
 
                         {/* <h1 className="font-bold py-2 ">Left column pic and links</h1> */}
                         <img className="rounded-2xl" src={image} alt=""/>
                         <ul className="pt-4 flex flex-wrap justify-between flex-col">
                             <li><a href="" className="hbout">super cool interesting link</a></li>
-                            <li><a href="" className="hbout">probably very helpful and worthwhile link</a></li>
-                            <li><a href="" className="hbout">someone might click on this one day link</a></li>
+                            <li><a href="" className="hbout">probably very helpful link</a></li>
+                            <li><a href="" className="hbout">someone might click on this link</a></li>
                             <li><a href="" className="hbout">another link</a></li>
                         </ul>
                         <a href="" className="hbout normal font-bold hover:font-bold">more...</a>
@@ -26,9 +26,9 @@ export default function About () {
                 </div>
 
                 <div className="w-full w-2/3 order-1 md:order-2">
-                    <div className="bg-stone-900/80 shadow-xl p-6 rounded-2xl max-w-3xl leading-loose tracking-tight">
-                        <h1 className="font-extrabold my-3">Right Column</h1>
-                        <div className="text-yellow-900">
+                    <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl max-w-3xl leading-loose tracking-tight">
+                        <h1 className="font-extrabold my-3">background and interests</h1>
+                        <div className="text-yellow-600">
                             <p className="mb-8">Four dollar toast hella green juice heirloom. Gluten-free ugh synth skateboard seitan squid farm-to-table direct trade try-hard. Tbh vexillologist farm-to-table 90's kickstarter selfies listicle authentic, next level adaptogen chillwave. Af direct trade chambray everyday carry, post-ironic hell of messenger bag pitchfork gluten-free keytar.</p>
                             <p className="mb-8">Tote bag meggings yuccie semiotics, hexagon ennui deep v. Occupy green juice cloud bread gastropub af authentic church-key, lyft dreamcatcher. Poke chillwave vinyl, roof party twee raclette messenger bag tbh pug stumptown keffiyeh pickled hot chicken church-key listicle. Wolf sustainable copper mug shaman activated charcoal.</p>
                             <p className="mb-8">Distillery paleo coloring book, succulents kickstarter selfies pitchfork thundercats tousled narwhal fanny pack activated charcoal. Tote bag vice heirloom, hella thundercats flexitarian pork belly swag raw denim slow-carb. Kinfolk literally wayfarers cloud bread keffiyeh twee quinoa, ennui kale chips normcore kickstarter YOLO fashion axe subway tile slow-carb. Fingerstache selvage af 8-bit bespoke, marfa kickstarter chia distillery. Heirloom glossier pug normcore pok pok gochujang.</p>
@@ -47,12 +47,12 @@ export default function About () {
                 </div>
 
                 <div className="w-full  w-1/3 md:pr-10 mt-4 pt-10 md:pt-20  md:bottom-0 order-4 md:order-3">
-                    <div className=" bg-stone-900/80 shadow-xl p-6 rounded-2xl md:float-right md:text-right leading-loose tracking-tight mb-6">
+                    <div className=" bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl md:float-right md:text-right leading-loose tracking-tight mb-6">
                         <h1 className="  font-bold my-3 ">Get In Touch</h1>
 
                         <ul className="grid grid-cols-3 mb-6 justify-between flex-row ">
                             <li><a href="" className="hbout mx-2 ">Twitter</a></li>
-                            <li><a href="" className="hbout mx-2 ">Instagram</a></li>
+                            <li><a href="" className="hbout mx-2 ">Insta</a></li>
                             <li><a href="" className="hbout mx-2 ">Social</a></li>
                             <li><a href="" className="hbout mx-2 ">Media</a></li>
                             <li><a href="" className="hbout mx-2 ">Github</a></li>
@@ -64,10 +64,10 @@ export default function About () {
 
 
                 <div className="w-full w-2/3 order-2 md:order-4">
-                    <div className="bg-stone-900/80 shadow-xl p-6 mt-24 rounded-2xl max-w-3xl leading-loose tracking-tight">
+                    <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 mt-24 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-bold my-3 ">Final Blurb</h1>
 
-                        <p className="mb-8 text-yellow-900">Typewriter mlkshk la croix, unicorn poutine before they sold out coloring book vaporware +1 PBR&B tumblr iceland hoodie poke semiotics. Irony whatever before they sold out umami green juice.</p>
+                        <p className="mb-8 text-yellow-600">Typewriter mlkshk la croix, unicorn poutine before they sold out coloring book vaporware +1 PBR&B tumblr iceland hoodie poke semiotics. Irony whatever before they sold out umami green juice.</p>
                     </div>
                 </div>
 

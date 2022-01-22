@@ -63,3 +63,13 @@ export default function Pause() {
 
     );
 }
+
+
+
+
+
+{/* <p id="btn" className=" inline pause toggle z-10 ml-72 pr-4 z-20">
+<svg width="1em" height="1em" viewBox="0 0 16 16" className="rounded-full shadow pause mr-10 2xl:mr-0 2xl:h-16 2xl:w-16  z-10 bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+</svg>
+</p> */}
