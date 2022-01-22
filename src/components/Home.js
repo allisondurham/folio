@@ -26,8 +26,8 @@ export default function Home() {
     return (
         <div id="" className="home  mt-16  relative">
             <input type="checkbox" loading="lazy"/>
-            
-            <div className="absolute z=50 text:xs md:text-2xl lg:text-4xl xl:text-5xl text-yellow-700 words ">
+
+            <div className="absolute z=50 text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-700 words mt-96 ">
 
                 <p className="text-yellow-700/90">software engineer</p>
                 <p className="ml-4 text-yellow-600/60">problem solver</p>
