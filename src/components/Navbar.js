@@ -8,7 +8,7 @@ export default function Navbar({ fixed }) {
                 <div className="container mx-auto flex flex-wrap items-center">
                     <div className="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
                         <a className="text-white no-underline hover:text-cyan hover:no-underline" href="/">
-                            <span className="text-4xl text-cyan-700 pl-2 hover:text-cyan-900" id="nav1">
+                            <span className="text-4xl text-cyan-700 pl-2 hover:text-cyan-600" id="nav1">
                                 <i  className="em em-grinning"></i> allison durham
                             </span>
                         </a>
