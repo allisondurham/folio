@@ -40,7 +40,7 @@ export default function Home() {
                     <img className="image" src={box2} alt=""/>
                     <div className="p-5">
                     <h1 className=" text-xl font-extrabold">artTracker</h1>
-                        <p>final project for code school. app for finding public art in downtown durham. python, django, mapbox.</p>
+                        <p>final project for code school. app for finding public art in downtown durham. python, django, mapbox. deployed with heroku.</p>
                     </div>
                     <div className="middle">
                         <div>
