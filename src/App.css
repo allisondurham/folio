@@ -99,16 +99,7 @@ filter: sepia(60%);
   filter: sepia(60%);
 }
 
-.burlap {
-  background-image: url("./assets/light-burlap.webp");
-}
 
-.crumple {
-  background-image: url("./assets/crumple.jpeg");
-  background-size: 100% 100%;
-  background-attachment: fixed;
-
-}
 
 
 
@@ -171,7 +162,6 @@ filter: sepia(60%);
   background-repeat: repeat;
   background-size: cover;
   background-position: center center;
-  /* background-image: url("./assets/thing1.jpeg") */
 }
 
 .boxes .card {
@@ -346,34 +336,13 @@ filter: sepia(60%);
   font-size: 2.5rem;
 }
 
-/* ------------------------------------------------------ */
-/* oldest stuff */
-
-.oldest {
-  font-family: helvetica, arial, sans-serif;
-  margin: 0em;
-  background-color: olive;
-  background-size: cover;
-  justify-content: left;
-}
-
-.oldest h1 {
-  font-size: 4em;
-  font-style: italic;
-  color: Orange;
-}
-.oldest img {
-    max-width:100%;
-    height:auto;
-}
-.oldest p { 
-  padding-top: 2em;
-  font-style: monospace;
-  color: black  ;
-}
 
 /* ----------------------------------------------------------- */
-
+.home {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
 
 .home input[type="checkbox"] {
   content: url("./assets/tunnel.gif");
@@ -394,7 +363,8 @@ filter: sepia(60%);
   
   /* margin-top: 25%; */
   /* margin-bottom: 50%; */
-  padding: 6% 0% 4% 6%;
+  text-align: center;
+  padding: 4% 2% 4% 2%;
   height: auto;
   min-height: 20rem;
   min-width: 22rem;
@@ -509,9 +479,3 @@ filter: sepia(60%);
 /* ----------------------------- */
 
 
-.riff {
-  background-image: url("./assets/riff.png");
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}

@@ -8,52 +8,30 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navbar,
-  Sidebar,
-  Leftbar,
   Footer,
   Home,
-  Thing1,
-  Thing2,
-  Blog,
-  Posts,
-  Post,
   Flip,
   Boxes,
   Calc,
-  Oldest,
   Carousel,
   CarouselData,
   About,
-  Flex,
-  BrickGame,
-  Meh,
-  Pause,
+  Resume,
 } from "./components";
 
 
 ReactDOM.render(
   <Router>
     <Navbar/>
-    <Sidebar/>
-    <Leftbar/>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Thing1" element={<Thing1 />} />
-      <Route path="/Thing2" element={<Thing2 />} />
       <Route path="/Flip" element={<Flip />} />
       <Route path="/Boxes" element={<Boxes />} />
       <Route path="/Calculator" element={<Calc />} />
-      <Route path="/Oldest" element={<Oldest />} />
       <Route path="/About" element={<About />} />
-      <Route path="/Flex" element={<Flex />} />
-      <Route path="/Brick" element={<BrickGame />} />
-      <Route path="/Meh" element={<Meh />} />
-      <Route path="/Pause" element={<Pause />} />
+      <Route path="/Resume" element={<Resume />} />
       <Route path="/Carousel" element={<Carousel items={CarouselData} />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
-      </Route>
+
     </Routes>
     <Footer />
   </Router>,

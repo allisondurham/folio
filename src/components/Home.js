@@ -1,12 +1,5 @@
 
 import React from "react";
-import image from "./blog/blogAssets/hammock.png"
-import image2 from "../assets/simple.jpg"
-import bg from "../assets/bg.jpg"
-import gif from "../assets/tunnel.gif"
-import still from "../assets/tunnel2.png"
-
-
 
 
 

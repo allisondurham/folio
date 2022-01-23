@@ -16,7 +16,7 @@ export default function About () {
                         {/* <h1 className="font-bold py-2 ">Left column pic and links</h1> */}
                         <img className="rounded-2xl" src={image} alt=""/>
                         <ul className="pt-4 flex flex-wrap justify-between flex-col">
-                            <li><a href="" className="hbout">super cool interesting link</a></li>
+                            <li><a href="/Resume" className="hbout">resume</a></li>
                             <li><a href="" className="hbout">probably very helpful link</a></li>
                             <li><a href="" className="hbout">someone might click on this link</a></li>
                             <li><a href="" className="hbout">another link</a></li>
