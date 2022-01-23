@@ -1,14 +1,23 @@
 import React from "react";
+import image from "../assets/resume.png";
 import resume from "../assets/ALLISON_DURHAM.pdf";
 
 export default function Template () {
     return (
         <div className="simple">
-            <div className="container w-full mx-auto mt-16 relative">
-                <div className=" p-20 flex flex-wrap items-center justify-center ">
+            <div className="resume container w-full mx-auto pt-16 md:pt-0 mt-16 pb-20 relative">
+                <div className=" p-4 md:p-10 lg:p-20 xl:px-32 2xl:px-52 flex flex-wrap items-center justify-center ">
                 <div className=" flex flex-wrap "></div>
-                <embed src={resume} width="800px" height="1180px" />
-                {/* <p className="absolute bg-black text-white/100 top-24 md:pr-4 lg:pr-32 pl-4 lg:mr-96 md:bg-cyan-400 sm:bg-white/0 sm:text-white/0 lg:bg-red-500">Allison Durham Resume</p> */}
+
+                <a target={resume} href={resume} title="" className="mr-2 mdg:mr-24 text-cyan-600 hover:text-cyan-500 text-lg md:text-2xl hover:text-3xl bg-stone-500/50 backdrop-blur-sm rounded-full p-3 lg:px-12 mb-10" >link to pdf</a>
+                <a href={resume} download className="ml-2 md:ml-24 text-cyan-600 hover:text-cyan-500 text-lg md:text-2xl hover:text-3xl bg-stone-500/50 backdrop-blur-sm rounded-full p-3 lg:px-12 mb-10">download</a>
+                <img src={image}  alt="resume.png"/>
+
+
+
+
+
+
 
 
 

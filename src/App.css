@@ -27,6 +27,14 @@ body{
 #foot:hover {
   color: #0891b2;  
 }
+.footer svg {
+  margin: 0 2px 0 2px;
+  /* border-radius: 10%; */
+  /* background-color: yellow; */
+}
+.footer svg:hover {
+  color: #0891b2;
+}
 
 /* inuse */
 button:hover {
@@ -192,6 +200,13 @@ filter: sepia(60%);
   color: rgb(14 116 144);
   letter-spacing: 0.1em;
 }
+.boxes .card h1:hover {
+  /* padding-bottom: 0.5rem; */
+  color: rgb(14 116 144);
+  letter-spacing: 0.1em;
+  transform: scale(1.05);
+  color: #0891b2;
+}
 
 .boxes img {
   border-radius: 20px 20px 0 0;
@@ -256,7 +271,7 @@ filter: sepia(60%);
 } */
 
 .math {
-  padding: 4rem;
+  /* padding: 4rem; */
   margin: 0;
   /* background-image: url("./assets/bokehparty.jpeg"); */
   background-image: url("./assets/box2.jpg");
@@ -269,8 +284,8 @@ filter: sepia(60%);
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-  grid-gap: 1% .5%;
-  grid-template-columns: repeat(4, 8%);
+  grid-gap: .5% .5%;
+  grid-template-columns:  repeat(4, 20%);
   grid-template-rows: minmax(7%, auto) repeat(7, 6%);
 }
 
@@ -455,10 +470,10 @@ filter: sepia(60%);
 .about p {
   letter-spacing: 0.1em;
 }
-.about img {
-  /* -webkit-transform: scaleX(-1);
-  transform: scaleX(-1); */
-}
+/* .about img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} */
 
 .hbout {
   color: rgb(14 116 144);
@@ -469,5 +484,10 @@ filter: sepia(60%);
 
 
 /* ----------------------------- */
-
+.resume a {
+  letter-spacing: 0.1em;
+}
+.resume p {
+  letter-spacing: 0.1em;
+}
 

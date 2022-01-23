@@ -24,7 +24,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50 ">
                     <img className="image" src={box1} alt=""/>
                     <div className="p-5">
-                        <h1 className=" text-xl font-extrabold ">next.js blog</h1>
+                        <a href="https://blog-next-js-sigma.vercel.app/">
+                            <h1 className=" text-xl font-extrabold ">next.js blog</h1>
+                        </a>
                         <p>responsive blog made with react, next.js, graphql, graphcms and tailwind.</p>
                     </div>
                     <div className="middle">
@@ -38,7 +40,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box2} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">artTracker</h1>
+                        <a href="https://stormy-coast-33083.herokuapp.com/">
+                            <h1 className=" text-xl font-extrabold">artTracker</h1>
+                        </a>
                         <p>final project for code school. app for finding public art in downtown durham. python, django, django REST framework, mapbox. deployed with heroku.</p>
                     </div>
                     <div className="middle">
@@ -52,7 +56,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box3} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">djangoGirls</h1>
+                        <a href="http://allisondurham.pythonanywhere.com/">
+                            <h1 className=" text-xl font-extrabold">djangoGirls</h1>
+                        </a>
                         <p>my first hosted project.  simple blog built with django, following djangoGirls tutorial.</p>
                     </div>
                     <div className="middle">
@@ -68,7 +74,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box4} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">earSketch</h1>
+                        <a href="https://earsketch.gatech.edu/earsketch2/?sharing=TshpLEOWEowz30twX69L0A">
+                            <h1 className=" text-xl font-extrabold">earSketch</h1>
+                        </a>
                         <p>fun little song i made with earSketch's digital audio workstation that creates songs by coding them in python.</p>
                     </div>
                     <div className="middle">
@@ -82,7 +90,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box5} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">turtle game</h1>
+                    <a href="https://replit.com/@AllisonDurham/turtle-game#main.py">
+                        <h1 className=" text-xl font-extrabold">turtle game</h1>
+                    </a>
                         <p>silly little python game.  turn based turtle racing.</p>
                     </div>
                     <div className="middle">
@@ -96,7 +106,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box6} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">hello world</h1>
+                        <a href="https://deserted-funky-beach.glitch.me/">
+                            <h1 className=" text-xl font-extrabold">hello world</h1>
+                        </a>
                         <p>my very first webpage. simple html & css.  its a bio made with glitch.  i've come a long way.</p>
                     </div>
                     <div className="middle">
@@ -110,7 +122,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box7} alt=""/>
                     <div className="p-5">
-                        <h1 className=" text-xl font-extrabold ">animation</h1>
+                        <a href="https://scratch.mit.edu/projects/454614781/fullscreen/">
+                            <h1 className=" text-xl font-extrabold ">animation</h1>
+                        </a>
                         <p>made before code school with scratch.  light hearted little video made with a coding for kids tool.</p>
                     </div>
                     <div className="middle">
@@ -124,7 +138,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box8} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">flip</h1>
+                        <a href="/Flip">
+                            <h1 className=" text-xl font-extrabold">flip</h1>
+                        </a>
                         <p>a flip card to show off some art i've recently made</p>
                     </div>
                     <div className="middle">
@@ -138,7 +154,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box9} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">carousel</h1>
+                        <a href="/Carousel">
+                            <h1 className=" text-xl font-extrabold">carousel</h1>
+                        </a>
                         <p>i'd never made a photo carousel before, so i did. </p>
                     </div>
                     <div className="middle">
@@ -154,7 +172,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box10} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">calculator</h1>
+                        <a href="/Calculator">
+                            <h1 className=" text-xl font-extrabold">calculator</h1>
+                        </a>
                         <p>code school project.  made a calculator. works pretty good too.</p>
                     </div>
                     <div className="middle">
@@ -168,7 +188,9 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box11} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">llamas</h1>
+                        <a href="https://tailwindcss.com/docs/installation">
+                            <h1 className=" text-xl font-extrabold">llamas</h1>
+                        </a>
                         <p>pocket tanks style game, but with llamas!</p>
                     </div>
                     <div className="middle">
@@ -182,8 +204,10 @@ export default function Home() {
                 <div className="card bg-stone-600/50  ">
                     <img className="image" src={box12} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">brick</h1>
-                        <p>classic brickbreaker game.  first javascript game.</p>
+                        <a href="https://tailwindcss.com/docs/installation">
+                            <h1 className=" text-xl font-extrabold">brick</h1>
+                        </a>
+                        <p>pseudo-classic brickbreaker game.  first javascript game.</p>
                     </div>
                     <div className="middle">
                         <div>
