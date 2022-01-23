@@ -9,7 +9,7 @@ export default function Flip() {
 
         <div className="container w-full mx-auto mt-14 py-12 ">
 
-            <div className="p-20 flex flex-wrap items-center justify-center">
+            <div className="pt-40 lg:p-20 pt-20 xl:p-32 flex flex-wrap items-center justify-center">
 
 
                 <div className="container flip w-full flex justify-around z-20">
