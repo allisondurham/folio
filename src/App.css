@@ -353,7 +353,7 @@ filter: sepia(60%);
 
 .home input[type="checkbox"] {
   content: url("./assets/tunnel.gif");
-  appearance: none;
+  /* appearance: none; */
   display: block;
   width: 100%;
   height: 100%;

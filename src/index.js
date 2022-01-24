@@ -25,12 +25,12 @@ ReactDOM.render(
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Flip" element={<Flip />} />
-      <Route path="/Boxes" element={<Boxes />} />
-      <Route path="/Calculator" element={<Calc />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Resume" element={<Resume />} />
-      <Route path="/Carousel" element={<Carousel items={CarouselData} />} />
+      <Route path="/flip" element={<Flip />} />
+      <Route path="/projects" element={<Boxes />} />
+      <Route path="/calculator" element={<Calc />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/resume" element={<Resume />} />
+      <Route path="/carousel" element={<Carousel items={CarouselData} />} />
 
     </Routes>
     <Footer />
