@@ -21,7 +21,7 @@ export default function About () {
                             <li><p className="text-stone-500">i'm looking for work</p></li>
                             <li><p className="text-stone-500">i'll code for you</p></li>
                             <li><p className="text-stone-500">hire me please :)</p></li>
-                            <li><a href="/Resume" className="text-lg hbout">resume</a></li>
+                            <li><a href="/resume" className="text-lg hbout">resume</a></li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +30,30 @@ export default function About () {
                     <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-extrabold my-3">background and interests</h1>
                         <div className="text-stone-500">
-                            <p className="mb-8">Four dollar toast hella green juice heirloom. Gluten-free ugh synth skateboard seitan squid farm-to-table direct trade try-hard. Tbh vexillologist farm-to-table 90's kickstarter selfies listicle authentic, next level adaptogen chillwave. Af direct trade chambray everyday carry, post-ironic hell of messenger bag pitchfork gluten-free keytar.</p>
+                            <p className="mb-8">my background is as varied as the day is long.  from carpentry to genetics research, and vineyard work to massage therapy, i've worn many professional hats and became a valued member of every team i've been a part of.</p>
+                            <p className="mb-8">i'm endlessly curious and tremendously adaptable. a self motivated problem solver with an eye for detail.  i like to know how things work and to make them work better. if theres something i dont understand, i learn it. </p>
+                            <p className="mb-8">as a musician and artist, i enjoy creating, building, practicing, and trying something again and again until the piece turns out like i'd like for it to.</p>
+                            <p className="mb-8">perhaps these characteristics are what drew me to coding.  </p>
+                            <p className="mb-8">i also love to help people, and that is how i curated such a varied work history. most of my jobs have been helping people i know who needed an assistant. they ask me because they know i am capable, dependable, responsible, hard working, easy going, and pleasant to be around.</p>
+                            <p className="mb-8">this love for helping people, and a lifelong interest in health and human anatomy, coupled with an ever-strengthening desire to guarantee that i'd work indoors in the seasonal extremes is what sparked my shift from being a reliable hired hand for friends to becoming a skilled massage therapist with the ability to help people feel better. </p>
+                            <p className="mb-8">everything was going along swimmingly, and then the pandemic struck.</p>
+                            <p className="mb-8">massage was declared non-essential, and without the ability to work remotely, i found myself facing unemployment for the first time.  i'd always had a job, sometimes two or three at a time. this period of unemployment necessitated that i move out of the place i'd been, and in with some friends. </p>
+                            <p className="mb-8">the friends i moved in with are software engineers and developers.  at that point i'd never used a computer for more than minecraft and search engines. they directed me towards some coding games because they believed i'd enjoy it, and maybe even have a knack for it.  they were right.</p>
+                            <p className="mb-8">the world eventyally opened up again, i went back to work as a massage therapist, but things were still slow. so, i enrolled in a part-time full-stack coding bootcamp and learned a thing or two.</p>
+                            <p className="mb-8">i absolutely love it.</p>
+                            <p className="mb-8">i love that coding is like a pick your own adventure book combined with a puzzle.  i love the logic, the malleability, the limitless creative possibilities, and the fact that there is always something more to learn.</p>
+                            <p className="mb-8">i love to learn.</p>
+                            <p className="mb-8">presently, i'm learning react.  </p>
+                            <p className="mb-8">my coding school taught html, css, javascript, python, and django to their part time co-horts.  they taught object oriented programming and used agile methodoligies. they taught us how to use the command line and use github for version control. we'd do pull requests, code reviews, and merge things back to the main branch. </p>
+                            <p className="mb-8">my co-hort was fully remote and each part-time student had their own unique life schedule, so i have first hand experience with developing remotely on an asynchronous team.</p>
+                            <p className="mb-8">i'm hopeful that soon i'll developing remotely for an awesome company.</p>
+                            <p className="mb-8">what do you say?  think i'd be a good fit for your team?</p>
+
+
+
+
+
+                            {/* <p className="mb-8">Four dollar toast hella green juice heirloom. Gluten-free ugh synth skateboard seitan squid farm-to-table direct trade try-hard. Tbh vexillologist farm-to-table 90's kickstarter selfies listicle authentic, next level adaptogen chillwave. Af direct trade chambray everyday carry, post-ironic hell of messenger bag pitchfork gluten-free keytar.</p>
                             <p className="mb-8">Tote bag meggings yuccie semiotics, hexagon ennui deep v. Occupy green juice cloud bread gastropub af authentic church-key, lyft dreamcatcher. Poke chillwave vinyl, roof party twee raclette messenger bag tbh pug stumptown keffiyeh pickled hot chicken church-key listicle. Wolf sustainable copper mug shaman activated charcoal.</p>
                             <p className="mb-8">Distillery paleo coloring book, succulents kickstarter selfies pitchfork thundercats tousled narwhal fanny pack activated charcoal. Tote bag vice heirloom, hella thundercats flexitarian pork belly swag raw denim slow-carb. Kinfolk literally wayfarers cloud bread keffiyeh twee quinoa, ennui kale chips normcore kickstarter YOLO fashion axe subway tile slow-carb. Fingerstache selvage af 8-bit bespoke, marfa kickstarter chia distillery. Heirloom glossier pug normcore pok pok gochujang.</p>
                             
@@ -42,7 +65,7 @@ export default function About () {
                             <p className="mb-8">Tbh fanny pack mlkshk cronut. Keytar +1 air plant pinterest, before they sold out cloud bread tumblr jean shorts flexitarian seitan readymade. Edison bulb woke art party, leggings hell of shaman marfa meh poutine. Single-origin coffee seitan kickstarter, cliche snackwave kitsch fixie portland williamsburg VHS blog chambray adaptogen cloud bread next level. Distillery kogi taiyaki, deep v fixie franzen irony pop-up waistcoat skateboard. Dreamcatcher mixtape meggings vaporware four loko activated charcoal wayfarers 8-bit hell of.</p>
                             <p className="mb-8">Ramps copper mug lo-fi blue bottle biodiesel cloud bread flannel raw denim palo santo tofu edison bulb tote bag. Williamsburg readymade seitan heirloom, craft beer kickstarter enamel pin DIY tote bag franzen la croix church-key street art lyft. Affogato pinterest celiac, fashion axe jean shorts succulents craft beer tbh enamel pin marfa flannel williamsburg tote bag truffaut. Coloring book aesthetic mixtape neutra schlitz irony, activated charcoal raw denim fam live-edge umami tumblr lyft. Williamsburg locavore cardigan, jean shorts neutra 90's try-hard. Next level vaporware thundercats food truck tote bag photo booth.</p>
                             <p className="mb-8">Dummy text? More like dummy thicc text, amirite?</p>
-                            <p className="mb-8">Hipster Ipsum</p>
+                            <p className="mb-8">Hipster Ipsum</p> */}
                         </div>
                     </div>
                 </div>

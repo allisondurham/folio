@@ -19,7 +19,7 @@ export default function Navbar({ fixed }) {
                                 <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/">home</a>
                             </li>
                             <li className="mr-3">
-                                <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/About">about</a>
+                                <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/about">about</a>
                             </li>
                             {/* <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Thing1">Thing1</a>
@@ -28,7 +28,7 @@ export default function Navbar({ fixed }) {
                                 <a id="nav" className="inline-block text-xl font-semibold text-yellow-900 no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Thing2">Thing2</a>
                             </li> */}
                             <li className="mr-3">
-                                <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/Boxes">projects</a>
+                                <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-cyan-600 hover:text-underline py-2 px-2" href="/projects">projects</a>
                             </li>
                         </ul>
                     </div>
