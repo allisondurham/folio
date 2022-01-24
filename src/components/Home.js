@@ -24,10 +24,10 @@ export default function Home() {
             {/* <div className="absolute words"> */}
                 <p className="text-yellow-700/90">software engineer</p>
                 <p className="ml-4 text-yellow-600/60">problem solver</p>
-                <p className="ml-8 text-cyan-700/60">adventurer</p>
+                <p className="ml-8 text-cyan-500/40">adventurer</p>
                 <p className="ml-12 text-yellow-700/60">musician</p>
                 <p className="ml-16 text-yellow-600/50">artist</p>
-                <p className="ml-20 text-cyan-700/50">pal</p>
+                <p className="ml-20 text-cyan-500/30">pal</p>
 
             </div>
         </div>

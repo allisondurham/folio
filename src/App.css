@@ -13,9 +13,9 @@ body{
 }
 
 /* only affects "home" button in nav tab */
-#nav:hover {
+/* #nav:hover {
   color: #0891b2;
-}
+} */
 
 #nav {
   letter-spacing: 0.1em;
@@ -25,7 +25,7 @@ body{
 }
 /* inuse */
 #foot:hover {
-  color: #0891b2;  
+  color: #06b6d4 ;  
 }
 .footer svg {
   margin: 0 2px 0 2px;
@@ -33,12 +33,12 @@ body{
   /* background-color: yellow; */
 }
 .footer svg:hover {
-  color: #0891b2;
+  color: #06b6d4 ;
 }
 
-/* inuse */
+
 button:hover {
-  color: #0891b2;
+  color: #06b6d4 ;
 }
 
 /* --------------------------------------------------  */
@@ -51,6 +51,7 @@ button:hover {
   color: #0e7490;
   /* z-index: 50; */
 }
+
 
 .foot {
   box-shadow:  1px 1px 4px 1px #131110;
@@ -185,6 +186,7 @@ filter: sepia(60%);
   transition: 1s ease;
   /* color: #ca8a04; */
   color: #78716c;
+  color: #a8a29e ;
   letter-spacing: 0.08em;
   /* background-color: #57534e; */
   box-shadow: 2px 2px 6px 2px #1c1917;
@@ -197,15 +199,15 @@ filter: sepia(60%);
 }
 .boxes .card h1 {
   /* padding-bottom: 0.5rem; */
-  color: rgb(14 116 144);
+  color: #0891b2  ;
   letter-spacing: 0.1em;
 }
 .boxes .card h1:hover {
   /* padding-bottom: 0.5rem; */
-  color: rgb(14 116 144);
+  /* color: rgb(14 116 144); */
   letter-spacing: 0.1em;
   transform: scale(1.05);
-  color: #0891b2;
+  color: #06b6d4 ;
 }
 
 .boxes img {
@@ -230,7 +232,7 @@ filter: sepia(60%);
 }
 
 .boxes .card:hover .image{
-  filter: brightness(30%);
+  filter: brightness(50%);
   transition: all 1s ease;
 }
 
@@ -249,7 +251,7 @@ filter: sepia(60%);
   opacity: 1;
 }
 
-.boxes .
+
 
 @media(max-width:768px){
   .boxes .card{
@@ -462,6 +464,7 @@ filter: sepia(60%);
 .about h1 {
   font-size: x-large;
   color: rgb(14 116 144);
+  color: #0891b2 ;
   letter-spacing: 0.1em;
   /* background-color: #a16207;
   border-radius: 5px;
@@ -471,6 +474,7 @@ filter: sepia(60%);
 
 .about p {
   letter-spacing: 0.1em;
+
 }
 /* .about img {
   -webkit-transform: scaleX(-1);
@@ -479,6 +483,7 @@ filter: sepia(60%);
 
 .hbout {
   color: rgb(14 116 144);
+  color: #0891b2 ;
   letter-spacing: 0.1em;
   /* font-size: large; */
   /* font-weight: 900; */
