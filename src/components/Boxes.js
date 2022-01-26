@@ -124,7 +124,7 @@ export default function Boxes() {
                         <a href="/carousel">
                             <h1 className=" text-xl font-extrabold">carousel</h1>
                         </a>
-                        <p>i'd never made a photo carousel before, so i did. hosted here. it's not awesome but it exists. theres always more to learn! </p>
+                        <p>i'd never made a photo carousel before, so i did. hosted here. it's not awesome but it exists. theres always more to learn! images from barrango.com</p>
                     </div>
                     <div className="middle">
                         <div>
@@ -190,7 +190,7 @@ export default function Boxes() {
                         <a href="https://earsketch.gatech.edu/earsketch2/?sharing=TshpLEOWEowz30twX69L0A">
                             <h1 className=" text-xl font-extrabold">earSketch</h1>
                         </a>
-                        <p>fun little song i made with earSketch's digital audio workstation that creates songs by coding them in python.</p>
+                        <p>fun song made with earSketch's DAW that turns code into music. click run, click the loop button next to play, then play.</p>
                     </div>
                     <div className="middle">
                         <div>

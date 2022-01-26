@@ -36,7 +36,13 @@ main resources:
     https://webdevtrick.com/css-card-flip-reflection/
 
     7.
-    toggle image
+    toggle image with checkbox -- top answer
+    https://stackoverflow.com/questions/6813699/how-to-change-an-image-on-click-using-css-alone
+
+    8. project boxes
+    
+
+
     
 
 

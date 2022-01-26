@@ -31,7 +31,7 @@ export default function About () {
                         <h1 className="font-extrabold my-3">background and interests</h1>
                         <div className="text-stone-400">
                             <p className="mb-8">my background is as varied as the day is long.  from carpentry to genetics research, and vineyard work to massage therapy, i've worn many professional hats and became a valued member of every team i've been a part of.</p>
-                            <p className="mb-8">i'm endlessly curious and tremendously adaptable. a self motivated problem solver with an eye for detail.  i like to know how things work and to make them work better. if theres something i dont understand, i learn it. </p>
+                            <p className="mb-8">i'm endlessly curious and tremendously adaptable. a self motivated problem solver with an eye for detail.  i like to know how things work and to make them work better. if there's something i dont understand, i learn it. </p>
                             <p className="mb-8">as a musician and artist, i enjoy creating, building, practicing, and trying something again and again until the piece turns out like i'd like for it to.</p>
                             <p className="mb-8">perhaps these characteristics are what drew me to coding.  </p>
                             <p className="mb-8">i also love to help people, and that is how i curated such a varied work history. most of my jobs have been helping people i know who needed an assistant. they ask me because they know i am capable, dependable, responsible, hard working, easy going, and pleasant to be around.</p>
