@@ -22,10 +22,15 @@ export default function Home() {
 
             <div className="words absolute z=50 text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl pt-14 px-0 py-10 lg:py-16">
             {/* <div className="absolute words"> */}
-                <p className="text-yellow-700/90">software engineer</p>
+            <a href="/projects">
+                <p className="text-yellow-700/90 hover:text-yellow-600">software engineer</p>
+            </a>
                 <p className="ml-4 text-yellow-600/60">problem solver</p>
                 <p className="ml-8 text-cyan-500/40">adventurer</p>
-                <p className="ml-12 text-yellow-700/60">musician</p>
+               
+               <a href="https://main.d2fc793b4oh906.amplifyapp.com/">
+                <p className="ml-12 text-yellow-700/60 hover:text-yellow-600">musician</p>
+               </a>
                 <p className="ml-16 text-yellow-600/50">artist</p>
                 <p className="ml-20 text-cyan-500/30">pal</p>
 
