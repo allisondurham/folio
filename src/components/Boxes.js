@@ -45,7 +45,7 @@ export default function Boxes() {
                         <a href="https://main.d2fc793b4oh906.amplifyapp.com/">
                             <h1 className=" text-xl font-extrabold ">easy tiger</h1>
                         </a>
-                        <p>simple website for a band i play mandolin for.  built with react and tailwind.  hosted with aws.</p>
+                        <p>under construction -- simple website for a band i play mandolin for.  built with react and tailwind.  hosted with aws.</p>
                     </div>
                     <div className="middle">
                         <div>
