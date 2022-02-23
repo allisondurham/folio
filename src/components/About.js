@@ -122,7 +122,7 @@ export default function About () {
                     <div className="bg-stone-600/50 backdrop-blur-sm shadow-xl p-6 mb-12 md:mb-0 md:mt-12 rounded-2xl max-w-3xl leading-loose tracking-tight">
                         <h1 className="font-bold my-3 ">final blurb</h1>
 
-                        <p className="mb-8 text-stone-400">i built this site with react, which i'd never used before, but wanted to try it out and needed to build a place for my portfolio anyhow.  i love how much faster it is than a similar django project would be, and as much as i love python (which is a lot), i've been having a lot of fun lately with javaScript. i think this site turned out okay! it's always fun to learn something new, and if you hire me, i'll learn whatevers in your stack!</p>
+                        <p className="mb-8 text-stone-400">i built this site with react, which i'd never used before, but wanted to try it out and needed to build a place for my portfolio anyhow. i think this site turned out okay! it's always fun to learn something new, and if you hire me, i'll learn whatevers in your stack!</p>
                     </div>
                 </div>
 
