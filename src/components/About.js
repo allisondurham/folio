@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/selfie.jpg";
+import image from "../assets/selfie3.jpg";
 
 export default function About () {
     return (
@@ -14,7 +14,7 @@ export default function About () {
                     <div className="bg-stone-600/50 p-6 backdrop-blur-sm shadow-xl rounded-2xl  md:float-right text-right leading-loose tracking-tight sticky mt-24 md:mt-0 md:top-16 ">
 
                         {/* <h1 className="font-bold py-2 ">Left column pic and links</h1> */}
-                        <img className="rounded-2xl" src={image} alt=""/>
+                        <img className="rounded-2xl selfie shadow-xl " src={image} alt=""/>
                         <ul className="pt-4 flex flex-wrap justify-between flex-col">
                             <li><p className="text-stone-400">hi, i'm allison durham</p></li>
                             <li><p className="text-stone-400">i love to code</p></li>
