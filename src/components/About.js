@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/selfie3.jpg";
+import image from "../assets/selfie4.jpg";
 
 export default function About () {
     return (
@@ -47,7 +47,7 @@ export default function About () {
                             <p className="mb-8">my coding school taught html, css, javascript, python, and django to their part time co-horts.  they taught object oriented programming and used agile methodoligies. they taught us how to use the command line and use github for version control. we'd do pull requests, code reviews, and merge things back to the main branch. </p>
                             <p className="mb-8">my co-hort was fully remote and each part-time student had their own unique life schedule, so i have first hand experience with developing remotely on an asynchronous team.</p>
                             <p className="mb-8">i'm hopeful that soon i'll developing remotely for an awesome company.</p>
-                            <p className="mb-8">what do you say?  think i'd be a good fit for your team?</p>
+                            <p className="mb-8">practice makes improvement!</p>
 
 
 
