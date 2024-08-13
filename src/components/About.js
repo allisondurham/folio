@@ -39,7 +39,7 @@ export default function About () {
                             <p className="mb-8">everything was going along swimmingly, and then the pandemic struck.</p>
                             <p className="mb-8">massage was declared non-essential, and without the ability to work remotely, i found myself facing unemployment for the first time.  i'd always had a job, sometimes two or three at a time. this period of unemployment necessitated that i move out of the place i'd been, and in with some friends. </p>
                             <p className="mb-8">the friends i moved in with are software engineers and developers.  at that point i'd never used a computer for more than minecraft and search engines. they directed me towards some coding games because they believed i'd enjoy it, and maybe even have a knack for it.  they were right.</p>
-                            <p className="mb-8">the world eventyally opened up again, i went back to work as a massage therapist, but things were still slow. so, i enrolled in a part-time full-stack coding bootcamp and learned a thing or two.</p>
+                            <p className="mb-8">the world eventually opened up again, i went back to work as a massage therapist, but things were still slow. so, i enrolled in a part-time full-stack coding bootcamp and learned a thing or two.</p>
                             <p className="mb-8">i absolutely love it.</p>
                             <p className="mb-8">i love that coding is like a pick your own adventure book combined with a puzzle.  i love the logic, the malleability, the limitless creative possibilities, and the fact that there is always something more to learn.</p>
                             <p className="mb-8">i love to learn.</p>
