@@ -1,12 +1,20 @@
 import React from "react";
-import box1 from "../assets/box1.jpg";
-import box2 from "../assets/box2.jpg";
-import box3 from "../assets/box3.jpg";
-import box4 from "../assets/box4.jpg";
-import box5 from "../assets/box5.jpg";
-import box6 from "../assets/box6.jpg";
+import box1 from "../assets/thumbnails/nextjsblog.png";
+import box2 from "../assets/thumbnails/arttracker.png";
+import box3 from "../assets/thumbnails/djangogirls.png";
+import box4 from "../assets/thumbnails/earsketch.png";
+import box5 from "../assets/thumbnails/turtle.png";
+import box6 from "../assets/thumbnails/hello_world.png";
+import box7 from "../assets/thumbnails/animation.png";
+import box8 from "../assets/thumbnails/flip.png";
+import box9 from "../assets/thumbnails/carousel.png";
+import box10 from "../assets/thumbnails/calc.png";
+import box11 from "../assets/thumbnails/llama.png";
+import box12 from "../assets/thumbnails/brick.png";
+import box13 from "../assets/thumbnails/folio.png";
+import box14 from "../assets/thumbnails/easytiger.png";
 
-export default function Home() {
+export default function Boxes() {
     return (
         <div className="simple">
 
@@ -14,102 +22,243 @@ export default function Home() {
 
 
             <section className="boxes py-20 grid grid-cols-3 justify-center">
-                <div className="card bg-stone-600/50 backdrop-blur-sm">
-                    <img className="image" src={box1} alt=""/>
+
+                <div className="card bg-stone-600/50 ">
+                    <img className="image" src={box13} alt=""/>
                     <div className="p-5">
-                        <h1 className=" text-xl font-extrabold ">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki  coloring book selvage palo santo.</p>
+                        <a href="https://www.allisondurham.dev/">
+                            <h1 className=" text-xl font-extrabold ">this website</h1>
+                        </a>
+                        <p>homemade portfolio with self-taught react and tailwind. responsive, shiny, and the gif on the homepage will pause when clicked. hosted with aws.</p>
                     </div>
                     <div className="middle">
                         <div>
-                            <a href="https://www.youtube.com/watch?v=cmzx49na6Aw&ab_channel=JanaeGiggles">
-                                <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fillRule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                                </svg>
+                            <a href="https://www.allisondurham.dev/">
+                                <svg className="bg-cyan-500  rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="card bg-stone-600/50 backdrop-blur-sm">
+                <div className="card bg-stone-600/50 ">
+                    <img className="image" src={box14} alt=""/>
+                    <div className="p-5">
+                        <a href="https://main.d2fc793b4oh906.amplifyapp.com/">
+                            <h1 className=" text-xl font-extrabold ">easy tiger</h1>
+                        </a>
+                        <p>under construction -- simple website for a band i play mandolin for.  built with react and tailwind.  hosted with aws.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="https://main.d2fc793b4oh906.amplifyapp.com/">
+                                <svg className="bg-cyan-500  rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50 ">
+                    <img className="image" src={box1} alt=""/>
+                    <div className="p-5">
+                        <a href="https://blog-next-js-sigma.vercel.app/">
+                            <h1 className=" text-xl font-extrabold ">next.js blog</h1>
+                        </a>
+                        <p>responsive blog made with react, next.js, graphql, graphcms and tailwind. graphcms api.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="https://blog-next-js-sigma.vercel.app/">
+                                <svg className="bg-cyan-500  rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box11} alt=""/>
+                    <div className="p-5">
+                        <a href="https://main.d3xjpzj0upw45.amplifyapp.com/">
+                            <h1 className=" text-xl font-extrabold">llamas</h1>
+                        </a>
+                        <p>pocket tanks style game, but with llamas! and vanilla javascript! hosted with aws.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="https://main.d3xjpzj0upw45.amplifyapp.com/">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50  ">
                     <img className="image" src={box2} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
+                        <a href="https://stormy-coast-33083.herokuapp.com/">
+                            <h1 className=" text-xl font-extrabold">artTracker</h1>
+                        </a>
+                        <p>final project for code school. app for finding public art in downtown durham. python, django, django REST framework, mapbox. deployed with heroku.</p>
                     </div>
                     <div className="middle">
                         <div>
-                            <a href="https://www.youtube.com/watch?v=f6mJ7e5YmnE&ab_channel=NationalGeographic">
-                                <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fillRule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                                </svg></a>
+                            <a href="https://stormy-coast-33083.herokuapp.com/">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div className="card bg-stone-600/50 backdrop-blur-sm">
-                    <img className="image" src={box5} alt=""/>
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box12} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
+                        <a href="https://main.d163z1au1m83f4.amplifyapp.com/">
+                            <h1 className=" text-xl font-extrabold">brick</h1>
+                        </a>
+                        <p>pseudo-classic brickbreaker game. vanilla javascript. first javascript game. not mobile friendly.</p>
                     </div>
                     <div className="middle">
                         <div>
-                            <a href="https://www.youtube.com/watch?v=vdrn4ouZRvQ&ab_channel=Minecraft">
-                                <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fillRule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                                </svg></a>
+                            <a href="https://main.d163z1au1m83f4.amplifyapp.com/">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
-
-
-                <div className="card bg-stone-600/50 backdrop-blur-sm">
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box8} alt=""/>
+                    <div className="p-5">
+                        <a href="/flip">
+                            <h1 className=" text-xl font-extrabold">flip</h1>
+                        </a>
+                        <p>a flip card to show off some art i've recently made. part of this react app.  also tailwind.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="/flip">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box9} alt=""/>
+                    <div className="p-5">
+                        <a href="/carousel">
+                            <h1 className=" text-xl font-extrabold">carousel</h1>
+                        </a>
+                        <p>i'd never made a photo carousel before, so i did. hosted here. it's not awesome but it exists. theres always more to learn! images from barrango.com</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="/carousel">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50  ">
                     <img className="image" src={box3} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
+                        <a href="http://allisondurham.pythonanywhere.com/">
+                            <h1 className=" text-xl font-extrabold">djangoGirls</h1>
+                        </a>
+                        <p>my first hosted project.  simple blog built with django, following djangoGirls tutorial.</p>
                     </div>
                     <div className="middle">
                         <div>
-                            <h1 className="article text-center bg-yellow-500 text-xl ">
-                                <a href="https://reactjs.org/">
-                                    &nbsp; Learn More &nbsp;
-                                </a>
-                            </h1>
+                            <a href="http://allisondurham.pythonanywhere.com/">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div className="card bg-stone-600/50 backdrop-blur-sm">
+
+
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box10} alt=""/>
+                    <div className="p-5">
+                        <a href="/calculator">
+                            <h1 className=" text-xl font-extrabold">calculator</h1>
+                        </a>
+                        <p>code school project.  made a calculator. works pretty good too.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="/calculator">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1  " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box5} alt=""/>
+                    <div className="p-5">
+                    <a href="https://replit.com/@AllisonDurham/turtle-game#main.py">
+                        <h1 className=" text-xl font-extrabold">turtle game</h1>
+                    </a>
+                        <p>silly little python game.  turn based turtle racing.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="https://replit.com/@AllisonDurham/turtle-game#main.py">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card bg-stone-600/50  ">
                     <img className="image" src={box4} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
+                        <a href="https://earsketch.gatech.edu/earsketch2/?sharing=TshpLEOWEowz30twX69L0A">
+                            <h1 className=" text-xl font-extrabold">earSketch</h1>
+                        </a>
+                        <p>fun song made with earSketch's DAW that turns code into music. click run, click the loop button next to play, then play.</p>
                     </div>
                     <div className="middle">
                         <div>
-                            <h1 className="article text-center bg-yellow-500 text-xl p-15">
-                                <a href="https://tailwindcss.com/docs/installation">
-                                    &nbsp; Learn More &nbsp;
-                                </a>
-                            </h1>
+                            <a href="https://earsketch.gatech.edu/earsketch2/?sharing=TshpLEOWEowz30twX69L0A">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div className="card bg-stone-600/50 backdrop-blur-sm">
+                <div className="card bg-stone-600/50  ">
+                    <img className="image" src={box7} alt=""/>
+                    <div className="p-5">
+                        <a href="https://scratch.mit.edu/projects/454614781/fullscreen/">
+                            <h1 className=" text-xl font-extrabold ">animation</h1>
+                        </a>
+                        <p>made before code school with scratch.  light hearted little video made with a coding for kids tool.</p>
+                    </div>
+                    <div className="middle">
+                        <div>
+                            <a href="https://scratch.mit.edu/projects/454614781/fullscreen/">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="card bg-stone-600/50  ">
                     <img className="image" src={box6} alt=""/>
                     <div className="p-5">
-                    <h1 className=" text-xl font-extrabold">Hipster Ipsum</h1>
-                        <p>Copper mug direct trade venmo raclette brunch pinterest. Prism trust fund shaman authentic chambray aesthetic roof party ennui taiyaki coloring book selvage palo santo.</p>
+                        <a href="https://deserted-funky-beach.glitch.me/">
+                            <h1 className=" text-xl font-extrabold">hello world</h1>
+                        </a>
+                        <p>my very first webpage. simple html & css.  its a bio made with glitch.  i've come a long way.</p>
                     </div>
                     <div className="middle">
                         <div>
-                            <h1 className="article text-center bg-yellow-500 text-xl p-15">
-                                <a href="https://en.wikipedia.org/wiki/Chocolate">
-                                    &nbsp; Learn More &nbsp;
-                                </a>
-                            </h1>
+                            <a href="https://deserted-funky-beach.glitch.me/">
+                                <svg className="bg-cyan-500 rounded-xl" fill="#d6d3d1 " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 40.960938 4.9804688 A 2.0002 2.0002 0 0 0 40.740234 5 L 28 5 A 2.0002 2.0002 0 1 0 28 9 L 36.171875 9 L 22.585938 22.585938 A 2.0002 2.0002 0 1 0 25.414062 25.414062 L 39 11.828125 L 39 20 A 2.0002 2.0002 0 1 0 43 20 L 43 7.2460938 A 2.0002 2.0002 0 0 0 40.960938 4.9804688 z M 12.5 8 C 8.3826878 8 5 11.382688 5 15.5 L 5 35.5 C 5 39.617312 8.3826878 43 12.5 43 L 32.5 43 C 36.617312 43 40 39.617312 40 35.5 L 40 26 A 2.0002 2.0002 0 1 0 36 26 L 36 35.5 C 36 37.446688 34.446688 39 32.5 39 L 12.5 39 C 10.553312 39 9 37.446688 9 35.5 L 9 15.5 C 9 13.553312 10.553312 12 12.5 12 L 22 12 A 2.0002 2.0002 0 1 0 22 8 L 12.5 8 z"/></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
             </section>
 
         </div>

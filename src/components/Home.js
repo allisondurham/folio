@@ -1,12 +1,5 @@
 
 import React from "react";
-import image from "./blog/blogAssets/hammock.png"
-import image2 from "../assets/simple.jpg"
-import bg from "../assets/bg.jpg"
-import gif from "../assets/tunnel.gif"
-import still from "../assets/tunnel2.png"
-
-
 
 
 
@@ -24,28 +17,24 @@ export default function Home() {
 
 
     return (
-        <div id="" className="home relative">
+        <div id="" className="home  mt-0  relative">
             <input type="checkbox" loading="lazy"/>
-            <img src={bg} className="black rounded-3xl" alt="background"/>
-            <div className="absolute z=50 text-5xl text-yellow-700 words">
-                {/* <p className="text-yellow-700/90">software engineer</p>
-                <p className="ml-4 text-yellow-600/50">software engineer</p>
-                <p className="ml-8 text-cyan-700/40">software engineer</p>
-                <p className="ml-12 text-yellow-700/40">software engineer</p>
-                <p className="ml-16 text-yellow-600/30">software engineer</p>
-                <p className="ml-20 text-cyan-700/20">software engineer</p> */}
 
-                <p className="text-yellow-700/90">software engineer</p>
+            <div className="words absolute z=50 text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl pt-14 px-0 py-10 lg:py-16">
+            {/* <div className="absolute words"> */}
+            <a href="/projects">
+                <p className="text-yellow-700/90 hover:text-yellow-600">software engineer</p>
+            </a>
                 <p className="ml-4 text-yellow-600/60">problem solver</p>
-                <p className="ml-8 text-cyan-700/60">adventurer</p>
-                <p className="ml-12 text-yellow-700/60">musician</p>
+                <p className="ml-8 text-cyan-500/40">adventurer</p>
+               
+               <a href="https://main.d2fc793b4oh906.amplifyapp.com/">
+                <p className="ml-12 text-yellow-700/60 hover:text-yellow-600">musician</p>
+               </a>
                 <p className="ml-16 text-yellow-600/50">artist</p>
-                <p className="ml-20 text-cyan-700/50">fun</p>
-
+                <p className="ml-20 text-cyan-500/30">pal</p>
 
             </div>
-
         </div>
-
     );
 }

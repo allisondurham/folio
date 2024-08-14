@@ -194,8 +194,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 export default function Calc() {
     return(
-        <div className="math">
-            <div className="calculator-grid">
+        <div className="math m-0 p-0  md:px-8 lg:px-20  xl:px-4 2xl:px-32">
+        <div className=" m-0 p-0  md:px-44 lg:px-56  xl:px-96 2xl:px-96">
+            <div className="calculator-grid ">
                 <div id="output" className="output">
                     <div data-previous-operand className="previous-operand"></div>
                     <div data-current-operand className="current-operand"></div>
@@ -231,6 +232,7 @@ export default function Calc() {
                 <button data-equals className="span-two">=</button>
                 
             </div>
+        </div>
         </div>
     )
 }

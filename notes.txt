@@ -1,0 +1,6 @@
+nearly everything needs to be optimized for mobile
+
+gif doesn't load on duncan's machine
+he's blocked most javascript
+
+

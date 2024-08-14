@@ -1,0 +1,21 @@
+
+.nav {
+    box-shadow: 2px 2px 5px #713f12;
+  text-shadow: 1px 1px 2px #a16207;
+  background-image: linear-gradient(to right, #ca8a04 , #facc15);
+  color: #713f12;
+  z-index: 50;
+}
+
+.foot {
+  background-image: linear-gradient(to right, #a16207 , #eab308);
+  box-shadow:  1px 1px 4px 3px #713f12;
+  text-shadow: 1px 1px 2px #131110;
+  text-shadow: 1px 1px 2px #292524;
+  letter-spacing: 0.1em;
+  color: #713f12;
+}
+
+.foot a {
+  color: #713f12;
+}

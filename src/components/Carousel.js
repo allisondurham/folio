@@ -27,7 +27,7 @@ if (!Array.isArray(items) || items.length <= 0) {
         <div className="simple">
 
             <div className=" container w-full mx-auto mt-16">
-                <div className=" p-20 flex flex-wrap items-center justify-center">
+                <div className=" py-32 px-4 text-cyan-500/50 flex flex-wrap items-center justify-center">
 
                     <div className="carousel">
 
