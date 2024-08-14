@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/selfie4.jpg";
+import image from "../assets/selfie.jpg";
 
 export default function About () {
     return (
