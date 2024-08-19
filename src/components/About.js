@@ -19,8 +19,8 @@ export default function About () {
                             <li><p className="text-stone-400">hi, i'm allison durham</p></li>
                             <li><p className="text-stone-400">i love to code</p></li>
                             <li><p className="text-stone-400">i'm looking for work</p></li>
-                            <li><p className="text-stone-400">i'll code for you</p></li>
-                            <li><p className="text-stone-400">hire me please :)</p></li>
+                            <li><p className="text-stone-400">i could code for you!</p></li>
+                            {/* <li><p className="text-stone-400">hire me please :)</p></li> */}
                             <li><a href="/resume" className="text-lg hbout">resume</a></li>
                         </ul>
                     </div>
@@ -48,7 +48,7 @@ export default function About () {
                             <p className="mb-8">my co-hort was fully remote and each part-time student had their own unique life schedule, so i have first hand experience with developing remotely on an asynchronous team.</p>
                             <p className="mb-8">i'm hopeful that soon i'll developing remotely for an awesome company.</p>
                             <p className="mb-8">practice makes improvement!</p>
-
+                            <p className="mb-8">* this bio needs an update to include my time at One Cow Standing, update coming soon! *</p>
 
 
 
